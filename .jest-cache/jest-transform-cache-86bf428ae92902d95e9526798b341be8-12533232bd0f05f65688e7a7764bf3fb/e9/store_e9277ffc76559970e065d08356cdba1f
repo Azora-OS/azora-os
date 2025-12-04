@@ -1,0 +1,112 @@
+5d7596a7d8d467d37b31b8ab74961e05
+/* istanbul ignore next */
+function cov_6fxtixojb() {
+  var path = "/home/runner/work/azora-os/azora-os/services/frontend/mobile/src/redux/store.ts";
+  var hash = "7e23b25a163ff220d3e7985def7590882de5feb6";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/frontend/mobile/src/redux/store.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 10,
+          column: 21
+        },
+        end: {
+          line: 23,
+          column: 2
+        }
+      },
+      "1": {
+        start: {
+          line: 17,
+          column: 4
+        },
+        end: {
+          line: 22,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 16,
+            column: 14
+          },
+          end: {
+            line: 16,
+            column: 15
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 4
+          },
+          end: {
+            line: 22,
+            column: 6
+          }
+        },
+        line: 17
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "7e23b25a163ff220d3e7985def7590882de5feb6"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_6fxtixojb = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_6fxtixojb();
+/**
+ * Redux Store Configuration
+ */
+
+import { configureStore } from '@reduxjs/toolkit';
+import authReducer from './slices/authSlice';
+import userReducer from './slices/userSlice';
+import uiReducer from './slices/uiSlice';
+export const store =
+/* istanbul ignore next */
+(cov_6fxtixojb().s[0]++, configureStore({
+  reducer: {
+    auth: authReducer,
+    user: userReducer,
+    ui: uiReducer
+  },
+  middleware: getDefaultMiddleware => {
+    /* istanbul ignore next */
+    cov_6fxtixojb().f[0]++;
+    cov_6fxtixojb().s[1]++;
+    return getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: ['auth/setUser'],
+        ignoredPaths: ['auth.user']
+      }
+    });
+  }
+}));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfNmZ4dGl4b2piIiwiYWN0dWFsQ292ZXJhZ2UiLCJjb25maWd1cmVTdG9yZSIsImF1dGhSZWR1Y2VyIiwidXNlclJlZHVjZXIiLCJ1aVJlZHVjZXIiLCJzdG9yZSIsInMiLCJyZWR1Y2VyIiwiYXV0aCIsInVzZXIiLCJ1aSIsIm1pZGRsZXdhcmUiLCJnZXREZWZhdWx0TWlkZGxld2FyZSIsImYiLCJzZXJpYWxpemFibGVDaGVjayIsImlnbm9yZWRBY3Rpb25zIiwiaWdub3JlZFBhdGhzIl0sInNvdXJjZXMiOlsic3RvcmUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBSZWR1eCBTdG9yZSBDb25maWd1cmF0aW9uXG4gKi9cblxuaW1wb3J0IHsgY29uZmlndXJlU3RvcmUgfSBmcm9tICdAcmVkdXhqcy90b29sa2l0JztcbmltcG9ydCBhdXRoUmVkdWNlciBmcm9tICcuL3NsaWNlcy9hdXRoU2xpY2UnO1xuaW1wb3J0IHVzZXJSZWR1Y2VyIGZyb20gJy4vc2xpY2VzL3VzZXJTbGljZSc7XG5pbXBvcnQgdWlSZWR1Y2VyIGZyb20gJy4vc2xpY2VzL3VpU2xpY2UnO1xuXG5leHBvcnQgY29uc3Qgc3RvcmUgPSBjb25maWd1cmVTdG9yZSh7XG4gIHJlZHVjZXI6IHtcbiAgICBhdXRoOiBhdXRoUmVkdWNlcixcbiAgICB1c2VyOiB1c2VyUmVkdWNlcixcbiAgICB1aTogdWlSZWR1Y2VyXG4gIH0sXG4gIG1pZGRsZXdhcmU6IChnZXREZWZhdWx0TWlkZGxld2FyZSkgPT5cbiAgICBnZXREZWZhdWx0TWlkZGxld2FyZSh7XG4gICAgICBzZXJpYWxpemFibGVDaGVjazoge1xuICAgICAgICBpZ25vcmVkQWN0aW9uczogWydhdXRoL3NldFVzZXInXSxcbiAgICAgICAgaWdub3JlZFBhdGhzOiBbJ2F1dGgudXNlciddXG4gICAgICB9XG4gICAgfSlcbn0pO1xuXG5leHBvcnQgdHlwZSBSb290U3RhdGUgPSBSZXR1cm5UeXBlPHR5cGVvZiBzdG9yZS5nZXRTdGF0ZT47XG5leHBvcnQgdHlwZSBBcHBEaXNwYXRjaCA9IHR5cGVvZiBzdG9yZS5kaXNwYXRjaDtcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFlWTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBZlo7QUFDQTtBQUNBOztBQUVBLFNBQVNFLGNBQWMsUUFBUSxrQkFBa0I7QUFDakQsT0FBT0MsV0FBVyxNQUFNLG9CQUFvQjtBQUM1QyxPQUFPQyxXQUFXLE1BQU0sb0JBQW9CO0FBQzVDLE9BQU9DLFNBQVMsTUFBTSxrQkFBa0I7QUFFeEMsT0FBTyxNQUFNQyxLQUFLO0FBQUE7QUFBQSxDQUFBTixhQUFBLEdBQUFPLENBQUEsT0FBR0wsY0FBYyxDQUFDO0VBQ2xDTSxPQUFPLEVBQUU7SUFDUEMsSUFBSSxFQUFFTixXQUFXO0lBQ2pCTyxJQUFJLEVBQUVOLFdBQVc7SUFDakJPLEVBQUUsRUFBRU47RUFDTixDQUFDO0VBQ0RPLFVBQVUsRUFBR0Msb0JBQW9CLElBQy9CO0lBQUE7SUFBQWIsYUFBQSxHQUFBYyxDQUFBO0lBQUFkLGFBQUEsR0FBQU8sQ0FBQTtJQUFBLE9BQUFNLG9CQUFvQixDQUFDO01BQ25CRSxpQkFBaUIsRUFBRTtRQUNqQkMsY0FBYyxFQUFFLENBQUMsY0FBYyxDQUFDO1FBQ2hDQyxZQUFZLEVBQUUsQ0FBQyxXQUFXO01BQzVCO0lBQ0YsQ0FBQyxDQUFDO0VBQUQ7QUFDTCxDQUFDLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

@@ -1,0 +1,166 @@
+9bd5381d33ab5c1b06bcd4a0e5a19c6a
+/* istanbul ignore next */
+function cov_pjyt14ns4() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/contracts/hardhat.config.js";
+  var hash = "6004a6a171206a45561c3dbcab5160a863dce79c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/contracts/hardhat.config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 1,
+          column: 44
+        }
+      },
+      "1": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 27
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 16,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 12,
+            column: 11
+          },
+          end: {
+            line: 12,
+            column: 40
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 12,
+            column: 11
+          },
+          end: {
+            line: 12,
+            column: 34
+          }
+        }, {
+          start: {
+            line: 12,
+            column: 38
+          },
+          end: {
+            line: 12,
+            column: 40
+          }
+        }],
+        line: 12
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 13,
+            column: 16
+          },
+          end: {
+            line: 13,
+            column: 72
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 13,
+            column: 42
+          },
+          end: {
+            line: 13,
+            column: 67
+          }
+        }, {
+          start: {
+            line: 13,
+            column: 70
+          },
+          end: {
+            line: 13,
+            column: 72
+          }
+        }],
+        line: 13
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "6004a6a171206a45561c3dbcab5160a863dce79c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_pjyt14ns4 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_pjyt14ns4();
+cov_pjyt14ns4().s[0]++;
+require("@nomicfoundation/hardhat-toolbox");
+/* istanbul ignore next */
+cov_pjyt14ns4().s[1]++;
+require("dotenv").config();
+/* istanbul ignore next */
+cov_pjyt14ns4().s[2]++;
+module.exports = {
+  solidity: "0.8.20",
+  networks: {
+    hardhat: {},
+    localhost: {
+      url: "http://127.0.0.1:8545"
+    },
+    sepolia: {
+      url:
+      /* istanbul ignore next */
+      (cov_pjyt14ns4().b[0][0]++, process.env.SEPOLIA_RPC) ||
+      /* istanbul ignore next */
+      (cov_pjyt14ns4().b[0][1]++, ""),
+      accounts: process.env.PRIVATE_KEY ?
+      /* istanbul ignore next */
+      (cov_pjyt14ns4().b[1][0]++, [process.env.PRIVATE_KEY]) :
+      /* istanbul ignore next */
+      (cov_pjyt14ns4().b[1][1]++, [])
+    }
+  }
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfcGp5dDE0bnM0IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwicmVxdWlyZSIsImNvbmZpZyIsIm1vZHVsZSIsImV4cG9ydHMiLCJzb2xpZGl0eSIsIm5ldHdvcmtzIiwiaGFyZGhhdCIsImxvY2FsaG9zdCIsInVybCIsInNlcG9saWEiLCJiIiwicHJvY2VzcyIsImVudiIsIlNFUE9MSUFfUlBDIiwiYWNjb3VudHMiLCJQUklWQVRFX0tFWSJdLCJzb3VyY2VzIjpbImhhcmRoYXQuY29uZmlnLmpzIl0sInNvdXJjZXNDb250ZW50IjpbInJlcXVpcmUoXCJAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtdG9vbGJveFwiKTtcbnJlcXVpcmUoXCJkb3RlbnZcIikuY29uZmlnKCk7XG5cbm1vZHVsZS5leHBvcnRzID0ge1xuICBzb2xpZGl0eTogXCIwLjguMjBcIixcbiAgbmV0d29ya3M6IHtcbiAgICBoYXJkaGF0OiB7fSxcbiAgICBsb2NhbGhvc3Q6IHtcbiAgICAgIHVybDogXCJodHRwOi8vMTI3LjAuMC4xOjg1NDVcIlxuICAgIH0sXG4gICAgc2Vwb2xpYToge1xuICAgICAgdXJsOiBwcm9jZXNzLmVudi5TRVBPTElBX1JQQyB8fCBcIlwiLFxuICAgICAgYWNjb3VudHM6IHByb2Nlc3MuZW52LlBSSVZBVEVfS0VZID8gW3Byb2Nlc3MuZW52LlBSSVZBVEVfS0VZXSA6IFtdXG4gICAgfVxuICB9XG59O1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWVZO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFBQUEsYUFBQSxHQUFBRSxDQUFBO0FBZlpDLE9BQU8sQ0FBQyxrQ0FBa0MsQ0FBQztBQUFDO0FBQUFILGFBQUEsR0FBQUUsQ0FBQTtBQUM1Q0MsT0FBTyxDQUFDLFFBQVEsQ0FBQyxDQUFDQyxNQUFNLENBQUMsQ0FBQztBQUFDO0FBQUFKLGFBQUEsR0FBQUUsQ0FBQTtBQUUzQkcsTUFBTSxDQUFDQyxPQUFPLEdBQUc7RUFDZkMsUUFBUSxFQUFFLFFBQVE7RUFDbEJDLFFBQVEsRUFBRTtJQUNSQyxPQUFPLEVBQUUsQ0FBQyxDQUFDO0lBQ1hDLFNBQVMsRUFBRTtNQUNUQyxHQUFHLEVBQUU7SUFDUCxDQUFDO0lBQ0RDLE9BQU8sRUFBRTtNQUNQRCxHQUFHO01BQUU7TUFBQSxDQUFBWCxhQUFBLEdBQUFhLENBQUEsVUFBQUMsT0FBTyxDQUFDQyxHQUFHLENBQUNDLFdBQVc7TUFBQTtNQUFBLENBQUFoQixhQUFBLEdBQUFhLENBQUEsVUFBSSxFQUFFO01BQ2xDSSxRQUFRLEVBQUVILE9BQU8sQ0FBQ0MsR0FBRyxDQUFDRyxXQUFXO01BQUE7TUFBQSxDQUFBbEIsYUFBQSxHQUFBYSxDQUFBLFVBQUcsQ0FBQ0MsT0FBTyxDQUFDQyxHQUFHLENBQUNHLFdBQVcsQ0FBQztNQUFBO01BQUEsQ0FBQWxCLGFBQUEsR0FBQWEsQ0FBQSxVQUFHLEVBQUU7SUFDcEU7RUFDRjtBQUNGLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

@@ -1,0 +1,36 @@
+28c6e304a57c460f4fc9ce3012d5d1fb
+/* istanbul ignore next */
+function cov_1f6nhixlgd() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/test-utils/src/mocks/index.ts";
+  var hash = "cdfd97483fc46b01c29713943c50620042f0dbf7";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/test-utils/src/mocks/index.ts",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "cdfd97483fc46b01c29713943c50620042f0dbf7"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1f6nhixlgd = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1f6nhixlgd();
+export * from './prisma.mock';
+export * from './redis.mock';
+export * from './stripe.mock';
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMWY2bmhpeGxnZCIsImFjdHVhbENvdmVyYWdlIl0sInNvdXJjZXMiOlsiaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSAnLi9wcmlzbWEubW9jayc7XG5leHBvcnQgKiBmcm9tICcuL3JlZGlzLm1vY2snO1xuZXhwb3J0ICogZnJvbSAnLi9zdHJpcGUubW9jayc7XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBZVk7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQWZaLGNBQWMsZUFBZTtBQUM3QixjQUFjLGNBQWM7QUFDNUIsY0FBYyxlQUFlIiwiaWdub3JlTGlzdCI6W119

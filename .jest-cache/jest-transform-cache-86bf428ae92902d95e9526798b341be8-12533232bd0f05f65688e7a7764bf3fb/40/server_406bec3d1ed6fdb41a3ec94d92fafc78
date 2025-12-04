@@ -1,0 +1,66 @@
+3f227e248916d1d190407ca217bb2a56
+/* istanbul ignore next */
+function cov_13z0z7yfup() {
+  var path = "/home/runner/work/azora-os/azora-os/services/defi-lending/server.js";
+  var hash = "01509688296da6d98582102275092e451e1f7bb9";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/defi-lending/server.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 12
+        },
+        end: {
+          line: 1,
+          column: 33
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 48
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "01509688296da6d98582102275092e451e1f7bb9"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_13z0z7yfup = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_13z0z7yfup();
+const app =
+/* istanbul ignore next */
+(cov_13z0z7yfup().s[0]++, require('./index.js'));
+
+// Server is already started in index.js
+// This file is used as the entry point for the application
+/* istanbul ignore next */
+cov_13z0z7yfup().s[1]++;
+console.log('DeFi Lending Service starting...');
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMTN6MHo3eWZ1cCIsImFjdHVhbENvdmVyYWdlIiwiYXBwIiwicyIsInJlcXVpcmUiLCJjb25zb2xlIiwibG9nIl0sInNvdXJjZXMiOlsic2VydmVyLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnN0IGFwcCA9IHJlcXVpcmUoJy4vaW5kZXguanMnKTtcblxuLy8gU2VydmVyIGlzIGFscmVhZHkgc3RhcnRlZCBpbiBpbmRleC5qc1xuLy8gVGhpcyBmaWxlIGlzIHVzZWQgYXMgdGhlIGVudHJ5IHBvaW50IGZvciB0aGUgYXBwbGljYXRpb25cbmNvbnNvbGUubG9nKCdEZUZpIExlbmRpbmcgU2VydmljZSBzdGFydGluZy4uLicpOyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFlWTtJQUFBQSxjQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxjQUFBO0FBZlosTUFBTUUsR0FBRztBQUFBO0FBQUEsQ0FBQUYsY0FBQSxHQUFBRyxDQUFBLE9BQUdDLE9BQU8sQ0FBQyxZQUFZLENBQUM7O0FBRWpDO0FBQ0E7QUFBQTtBQUFBSixjQUFBLEdBQUFHLENBQUE7QUFDQUUsT0FBTyxDQUFDQyxHQUFHLENBQUMsa0NBQWtDLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

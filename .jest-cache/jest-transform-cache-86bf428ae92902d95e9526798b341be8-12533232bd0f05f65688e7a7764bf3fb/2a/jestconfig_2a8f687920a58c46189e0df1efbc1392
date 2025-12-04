@@ -1,0 +1,57 @@
+1e9038471a9b4036ee8dfbb122a56054
+/* istanbul ignore next */
+function cov_1e7pa88vxa() {
+  var path = "/home/runner/work/azora-os/azora-os/services/health-monitor/jest.config.js";
+  var hash = "da4e132ba1929b87b9c4a1284ae8fdc47a0a1cbd";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/health-monitor/jest.config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 12,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "da4e132ba1929b87b9c4a1284ae8fdc47a0a1cbd"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1e7pa88vxa = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1e7pa88vxa();
+cov_1e7pa88vxa().s[0]++;
+module.exports = {
+  testEnvironment: 'node',
+  roots: ['<rootDir>/__tests__'],
+  testMatch: ['**/*.test.js'],
+  coverageDirectory: 'coverage',
+  collectCoverageFrom: ['*.js', '!server.js' // Exclude server.js as it's the entry point
+  ],
+  verbose: true,
+  testTimeout: 10000
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMWU3cGE4OHZ4YSIsImFjdHVhbENvdmVyYWdlIiwicyIsIm1vZHVsZSIsImV4cG9ydHMiLCJ0ZXN0RW52aXJvbm1lbnQiLCJyb290cyIsInRlc3RNYXRjaCIsImNvdmVyYWdlRGlyZWN0b3J5IiwiY29sbGVjdENvdmVyYWdlRnJvbSIsInZlcmJvc2UiLCJ0ZXN0VGltZW91dCJdLCJzb3VyY2VzIjpbImplc3QuY29uZmlnLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0ge1xuICB0ZXN0RW52aXJvbm1lbnQ6ICdub2RlJyxcbiAgcm9vdHM6IFsnPHJvb3REaXI+L19fdGVzdHNfXyddLFxuICB0ZXN0TWF0Y2g6IFsnKiovKi50ZXN0LmpzJ10sXG4gIGNvdmVyYWdlRGlyZWN0b3J5OiAnY292ZXJhZ2UnLFxuICBjb2xsZWN0Q292ZXJhZ2VGcm9tOiBbXG4gICAgJyouanMnLFxuICAgICchc2VydmVyLmpzJyAgLy8gRXhjbHVkZSBzZXJ2ZXIuanMgYXMgaXQncyB0aGUgZW50cnkgcG9pbnRcbiAgXSxcbiAgdmVyYm9zZTogdHJ1ZSxcbiAgdGVzdFRpbWVvdXQ6IDEwMDAwXG59OyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBZVk7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7QUFmWkMsTUFBTSxDQUFDQyxPQUFPLEdBQUc7RUFDZkMsZUFBZSxFQUFFLE1BQU07RUFDdkJDLEtBQUssRUFBRSxDQUFDLHFCQUFxQixDQUFDO0VBQzlCQyxTQUFTLEVBQUUsQ0FBQyxjQUFjLENBQUM7RUFDM0JDLGlCQUFpQixFQUFFLFVBQVU7RUFDN0JDLG1CQUFtQixFQUFFLENBQ25CLE1BQU0sRUFDTixZQUFZLENBQUU7RUFBQSxDQUNmO0VBQ0RDLE9BQU8sRUFBRSxJQUFJO0VBQ2JDLFdBQVcsRUFBRTtBQUNmLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

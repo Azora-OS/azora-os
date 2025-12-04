@@ -1,0 +1,209 @@
+8c8fe5ebd4a9e22ef058b74b543cde92
+/* istanbul ignore next */
+function cov_dc3viwkko() {
+  var path = "/home/runner/work/azora-os/azora-os/services/azora-forge/server.js";
+  var hash = "627e0efe887bbfb47d1ed5e3e22a960ff490f5fc";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/azora-forge/server.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 16
+        },
+        end: {
+          line: 1,
+          column: 34
+        }
+      },
+      "1": {
+        start: {
+          line: 2,
+          column: 13
+        },
+        end: {
+          line: 2,
+          column: 28
+        }
+      },
+      "2": {
+        start: {
+          line: 3,
+          column: 15
+        },
+        end: {
+          line: 3,
+          column: 32
+        }
+      },
+      "3": {
+        start: {
+          line: 4,
+          column: 12
+        },
+        end: {
+          line: 4,
+          column: 21
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 6,
+          column: 18
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 16
+        }
+      },
+      "6": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "7": {
+        start: {
+          line: 10,
+          column: 0
+        },
+        end: {
+          line: 17,
+          column: 3
+        }
+      },
+      "8": {
+        start: {
+          line: 11,
+          column: 2
+        },
+        end: {
+          line: 16,
+          column: 5
+        }
+      },
+      "9": {
+        start: {
+          line: 19,
+          column: 0
+        },
+        end: {
+          line: 19,
+          column: 21
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 10,
+            column: 19
+          },
+          end: {
+            line: 10,
+            column: 20
+          }
+        },
+        loc: {
+          start: {
+            line: 10,
+            column: 33
+          },
+          end: {
+            line: 17,
+            column: 1
+          }
+        },
+        line: 10
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "627e0efe887bbfb47d1ed5e3e22a960ff490f5fc"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_dc3viwkko = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_dc3viwkko();
+const express =
+/* istanbul ignore next */
+(cov_dc3viwkko().s[0]++, require('express'));
+const cors =
+/* istanbul ignore next */
+(cov_dc3viwkko().s[1]++, require('cors'));
+const helmet =
+/* istanbul ignore next */
+(cov_dc3viwkko().s[2]++, require('helmet'));
+const app =
+/* istanbul ignore next */
+(cov_dc3viwkko().s[3]++, express());
+/* istanbul ignore next */
+cov_dc3viwkko().s[4]++;
+app.use(helmet());
+/* istanbul ignore next */
+cov_dc3viwkko().s[5]++;
+app.use(cors());
+/* istanbul ignore next */
+cov_dc3viwkko().s[6]++;
+app.use(express.json());
+/* istanbul ignore next */
+cov_dc3viwkko().s[7]++;
+app.get('/health', (req, res) => {
+  /* istanbul ignore next */
+  cov_dc3viwkko().f[0]++;
+  cov_dc3viwkko().s[8]++;
+  res.json({
+    status: 'healthy',
+    service: 'azora-forge',
+    ubuntu: 'I serve because we prosper together',
+    timestamp: new Date().toISOString()
+  });
+});
+/* istanbul ignore next */
+cov_dc3viwkko().s[9]++;
+module.exports = app;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfZGMzdml3a2tvIiwiYWN0dWFsQ292ZXJhZ2UiLCJleHByZXNzIiwicyIsInJlcXVpcmUiLCJjb3JzIiwiaGVsbWV0IiwiYXBwIiwidXNlIiwianNvbiIsImdldCIsInJlcSIsInJlcyIsImYiLCJzdGF0dXMiLCJzZXJ2aWNlIiwidWJ1bnR1IiwidGltZXN0YW1wIiwiRGF0ZSIsInRvSVNPU3RyaW5nIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpO1xuY29uc3QgY29ycyA9IHJlcXVpcmUoJ2NvcnMnKTtcbmNvbnN0IGhlbG1ldCA9IHJlcXVpcmUoJ2hlbG1ldCcpO1xuY29uc3QgYXBwID0gZXhwcmVzcygpO1xuXG5hcHAudXNlKGhlbG1ldCgpKTtcbmFwcC51c2UoY29ycygpKTtcbmFwcC51c2UoZXhwcmVzcy5qc29uKCkpO1xuXG5hcHAuZ2V0KCcvaGVhbHRoJywgKHJlcSwgcmVzKSA9PiB7XG4gIHJlcy5qc29uKHsgXG4gICAgc3RhdHVzOiAnaGVhbHRoeScsIFxuICAgIHNlcnZpY2U6ICdhem9yYS1mb3JnZScsXG4gICAgdWJ1bnR1OiAnSSBzZXJ2ZSBiZWNhdXNlIHdlIHByb3NwZXIgdG9nZXRoZXInLFxuICAgIHRpbWVzdGFtcDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpIFxuICB9KTtcbn0pO1xuXG5tb2R1bGUuZXhwb3J0cyA9IGFwcDsiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWVZO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFmWixNQUFNRSxPQUFPO0FBQUE7QUFBQSxDQUFBRixhQUFBLEdBQUFHLENBQUEsT0FBR0MsT0FBTyxDQUFDLFNBQVMsQ0FBQztBQUNsQyxNQUFNQyxJQUFJO0FBQUE7QUFBQSxDQUFBTCxhQUFBLEdBQUFHLENBQUEsT0FBR0MsT0FBTyxDQUFDLE1BQU0sQ0FBQztBQUM1QixNQUFNRSxNQUFNO0FBQUE7QUFBQSxDQUFBTixhQUFBLEdBQUFHLENBQUEsT0FBR0MsT0FBTyxDQUFDLFFBQVEsQ0FBQztBQUNoQyxNQUFNRyxHQUFHO0FBQUE7QUFBQSxDQUFBUCxhQUFBLEdBQUFHLENBQUEsT0FBR0QsT0FBTyxDQUFDLENBQUM7QUFBQztBQUFBRixhQUFBLEdBQUFHLENBQUE7QUFFdEJJLEdBQUcsQ0FBQ0MsR0FBRyxDQUFDRixNQUFNLENBQUMsQ0FBQyxDQUFDO0FBQUM7QUFBQU4sYUFBQSxHQUFBRyxDQUFBO0FBQ2xCSSxHQUFHLENBQUNDLEdBQUcsQ0FBQ0gsSUFBSSxDQUFDLENBQUMsQ0FBQztBQUFDO0FBQUFMLGFBQUEsR0FBQUcsQ0FBQTtBQUNoQkksR0FBRyxDQUFDQyxHQUFHLENBQUNOLE9BQU8sQ0FBQ08sSUFBSSxDQUFDLENBQUMsQ0FBQztBQUFDO0FBQUFULGFBQUEsR0FBQUcsQ0FBQTtBQUV4QkksR0FBRyxDQUFDRyxHQUFHLENBQUMsU0FBUyxFQUFFLENBQUNDLEdBQUcsRUFBRUMsR0FBRyxLQUFLO0VBQUE7RUFBQVosYUFBQSxHQUFBYSxDQUFBO0VBQUFiLGFBQUEsR0FBQUcsQ0FBQTtFQUMvQlMsR0FBRyxDQUFDSCxJQUFJLENBQUM7SUFDUEssTUFBTSxFQUFFLFNBQVM7SUFDakJDLE9BQU8sRUFBRSxhQUFhO0lBQ3RCQyxNQUFNLEVBQUUscUNBQXFDO0lBQzdDQyxTQUFTLEVBQUUsSUFBSUMsSUFBSSxDQUFDLENBQUMsQ0FBQ0MsV0FBVyxDQUFDO0VBQ3BDLENBQUMsQ0FBQztBQUNKLENBQUMsQ0FBQztBQUFDO0FBQUFuQixhQUFBLEdBQUFHLENBQUE7QUFFSGlCLE1BQU0sQ0FBQ0MsT0FBTyxHQUFHZCxHQUFHIiwiaWdub3JlTGlzdCI6W119

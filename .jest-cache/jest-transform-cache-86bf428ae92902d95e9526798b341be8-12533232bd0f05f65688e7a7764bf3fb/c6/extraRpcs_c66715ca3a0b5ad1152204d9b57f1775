@@ -1,0 +1,69 @@
+bda27e10a90bdf78b30817ec426087ec
+/* istanbul ignore next */
+function cov_wyj93ui9j() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/constants/extraRpcs.js";
+  var hash = "0331d33ec5ebdcf263d38f8bb097d8f73b6bf5b4";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/constants/extraRpcs.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 9,
+          column: 25
+        },
+        end: {
+          line: 22,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "0331d33ec5ebdcf263d38f8bb097d8f73b6bf5b4"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_wyj93ui9j = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_wyj93ui9j();
+/* 
+AZORA PROPRIETARY LICENSE 
+Copyright (c) 2025 Azora ES (Pty) Ltd. All Rights Reserved. 
+See LICENSE file for details. 
+*/
+// Additional RPC endpoints for various chains
+// Used by Chainlist.org for extended RPC coverage
+
+export const extraRpcs =
+/* istanbul ignore next */
+(cov_wyj93ui9j().s[0]++, {
+  // Azora Mainnet additional RPCs (if needed in future)
+  195: {
+    rpcs: [
+    // Primary RPC already in chainid-195.js
+    // Additional RPCs can be added here
+    {
+      url: "http://localhost:8545",
+      tracking: "none",
+      trackingDetails: "Local Hardhat/Ganache node for testing"
+    }]
+  }
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3Zfd3lqOTN1aTlqIiwiYWN0dWFsQ292ZXJhZ2UiLCJleHRyYVJwY3MiLCJzIiwicnBjcyIsInVybCIsInRyYWNraW5nIiwidHJhY2tpbmdEZXRhaWxzIl0sInNvdXJjZXMiOlsiZXh0cmFScGNzLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8qIFxuQVpPUkEgUFJPUFJJRVRBUlkgTElDRU5TRSBcbkNvcHlyaWdodCAoYykgMjAyNSBBem9yYSBFUyAoUHR5KSBMdGQuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuIFxuU2VlIExJQ0VOU0UgZmlsZSBmb3IgZGV0YWlscy4gXG4qLyBcbi8vIEFkZGl0aW9uYWwgUlBDIGVuZHBvaW50cyBmb3IgdmFyaW91cyBjaGFpbnNcbi8vIFVzZWQgYnkgQ2hhaW5saXN0Lm9yZyBmb3IgZXh0ZW5kZWQgUlBDIGNvdmVyYWdlXG5cbmV4cG9ydCBjb25zdCBleHRyYVJwY3MgPSB7XG4gICAgLy8gQXpvcmEgTWFpbm5ldCBhZGRpdGlvbmFsIFJQQ3MgKGlmIG5lZWRlZCBpbiBmdXR1cmUpXG4gICAgMTk1OiB7XG4gICAgICAgIHJwY3M6IFtcbiAgICAgICAgICAgIC8vIFByaW1hcnkgUlBDIGFscmVhZHkgaW4gY2hhaW5pZC0xOTUuanNcbiAgICAgICAgICAgIC8vIEFkZGl0aW9uYWwgUlBDcyBjYW4gYmUgYWRkZWQgaGVyZVxuICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIHVybDogXCJodHRwOi8vbG9jYWxob3N0Ojg1NDVcIixcbiAgICAgICAgICAgICAgICB0cmFja2luZzogXCJub25lXCIsXG4gICAgICAgICAgICAgICAgdHJhY2tpbmdEZXRhaWxzOiBcIkxvY2FsIEhhcmRoYXQvR2FuYWNoZSBub2RlIGZvciB0ZXN0aW5nXCJcbiAgICAgICAgICAgIH1cbiAgICAgICAgXVxuICAgIH1cbn07Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFlWTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBZlo7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUEsT0FBTyxNQUFNRSxTQUFTO0FBQUE7QUFBQSxDQUFBRixhQUFBLEdBQUFHLENBQUEsT0FBRztFQUNyQjtFQUNBLEdBQUcsRUFBRTtJQUNEQyxJQUFJLEVBQUU7SUFDRjtJQUNBO0lBQ0E7TUFDSUMsR0FBRyxFQUFFLHVCQUF1QjtNQUM1QkMsUUFBUSxFQUFFLE1BQU07TUFDaEJDLGVBQWUsRUFBRTtJQUNyQixDQUFDO0VBRVQ7QUFDSixDQUFDIiwiaWdub3JlTGlzdCI6W119

@@ -1,0 +1,56 @@
+2a11927cd1d0e1d30fdfd67be17b8483
+/* istanbul ignore next */
+function cov_km2llr69c() {
+  var path = "/home/runner/work/azora-os/azora-os/services/azora-library/jest.config.js";
+  var hash = "2a0ac9cb228f644d695b7bedd696bee7b8d7cd4b";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/azora-library/jest.config.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 0
+        },
+        end: {
+          line: 15,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "2a0ac9cb228f644d695b7bedd696bee7b8d7cd4b"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_km2llr69c = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_km2llr69c();
+cov_km2llr69c().s[0]++;
+module.exports = {
+  testEnvironment: 'node',
+  testMatch: ['**/__tests__/**/*.js', '**/?(*.)+(spec|test).js'],
+  collectCoverageFrom: ['**/*.js', '!**/node_modules/**', '!**/coverage/**', '!jest.config.js', '!server.js'],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['text', 'lcov'],
+  setupFilesAfterEnv: [],
+  testTimeout: 10000
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3Zfa20ybGxyNjljIiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwibW9kdWxlIiwiZXhwb3J0cyIsInRlc3RFbnZpcm9ubWVudCIsInRlc3RNYXRjaCIsImNvbGxlY3RDb3ZlcmFnZUZyb20iLCJjb3ZlcmFnZURpcmVjdG9yeSIsImNvdmVyYWdlUmVwb3J0ZXJzIiwic2V0dXBGaWxlc0FmdGVyRW52IiwidGVzdFRpbWVvdXQiXSwic291cmNlcyI6WyJqZXN0LmNvbmZpZy5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHtcbiAgdGVzdEVudmlyb25tZW50OiAnbm9kZScsXG4gIHRlc3RNYXRjaDogWycqKi9fX3Rlc3RzX18vKiovKi5qcycsICcqKi8/KCouKSsoc3BlY3x0ZXN0KS5qcyddLFxuICBjb2xsZWN0Q292ZXJhZ2VGcm9tOiBbXG4gICAgJyoqLyouanMnLFxuICAgICchKiovbm9kZV9tb2R1bGVzLyoqJyxcbiAgICAnISoqL2NvdmVyYWdlLyoqJyxcbiAgICAnIWplc3QuY29uZmlnLmpzJyxcbiAgICAnIXNlcnZlci5qcydcbiAgXSxcbiAgY292ZXJhZ2VEaXJlY3Rvcnk6ICdjb3ZlcmFnZScsXG4gIGNvdmVyYWdlUmVwb3J0ZXJzOiBbJ3RleHQnLCAnbGNvdiddLFxuICBzZXR1cEZpbGVzQWZ0ZXJFbnY6IFtdLFxuICB0ZXN0VGltZW91dDogMTAwMDBcbn07XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWVZO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFBQUEsYUFBQSxHQUFBRSxDQUFBO0FBZlpDLE1BQU0sQ0FBQ0MsT0FBTyxHQUFHO0VBQ2ZDLGVBQWUsRUFBRSxNQUFNO0VBQ3ZCQyxTQUFTLEVBQUUsQ0FBQyxzQkFBc0IsRUFBRSx5QkFBeUIsQ0FBQztFQUM5REMsbUJBQW1CLEVBQUUsQ0FDbkIsU0FBUyxFQUNULHFCQUFxQixFQUNyQixpQkFBaUIsRUFDakIsaUJBQWlCLEVBQ2pCLFlBQVksQ0FDYjtFQUNEQyxpQkFBaUIsRUFBRSxVQUFVO0VBQzdCQyxpQkFBaUIsRUFBRSxDQUFDLE1BQU0sRUFBRSxNQUFNLENBQUM7RUFDbkNDLGtCQUFrQixFQUFFLEVBQUU7RUFDdEJDLFdBQVcsRUFBRTtBQUNmLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

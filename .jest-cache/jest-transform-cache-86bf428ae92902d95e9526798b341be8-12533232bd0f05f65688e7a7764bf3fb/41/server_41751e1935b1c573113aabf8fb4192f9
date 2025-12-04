@@ -1,0 +1,160 @@
+81503671f2b5d48c9501377b5b87b544
+/* istanbul ignore next */
+function cov_2qrb0rwqjw() {
+  var path = "/home/runner/work/azora-os/azora-os/services/azora-research-center/server.js";
+  var hash = "57d70f834e819576b727ebf37234885216f0028a";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/azora-research-center/server.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 12
+        },
+        end: {
+          line: 1,
+          column: 33
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 13
+        },
+        end: {
+          line: 3,
+          column: 37
+        }
+      },
+      "2": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 3
+        }
+      },
+      "3": {
+        start: {
+          line: 6,
+          column: 2
+        },
+        end: {
+          line: 6,
+          column: 65
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 17
+          },
+          end: {
+            line: 5,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 23
+          },
+          end: {
+            line: 7,
+            column: 1
+          }
+        },
+        line: 5
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 3,
+            column: 13
+          },
+          end: {
+            line: 3,
+            column: 37
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 13
+          },
+          end: {
+            line: 3,
+            column: 29
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 33
+          },
+          end: {
+            line: 3,
+            column: 37
+          }
+        }],
+        line: 3
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "57d70f834e819576b727ebf37234885216f0028a"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2qrb0rwqjw = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2qrb0rwqjw();
+const app =
+/* istanbul ignore next */
+(cov_2qrb0rwqjw().s[0]++, require('./index.js'));
+const PORT =
+/* istanbul ignore next */
+(cov_2qrb0rwqjw().s[1]++,
+/* istanbul ignore next */
+(cov_2qrb0rwqjw().b[0][0]++, process.env.PORT) ||
+/* istanbul ignore next */
+(cov_2qrb0rwqjw().b[0][1]++, 3013));
+/* istanbul ignore next */
+cov_2qrb0rwqjw().s[2]++;
+app.listen(PORT, () => {
+  /* istanbul ignore next */
+  cov_2qrb0rwqjw().f[0]++;
+  cov_2qrb0rwqjw().s[3]++;
+  console.log(`Research Center Service running on port ${PORT}`);
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMnFyYjByd3FqdyIsImFjdHVhbENvdmVyYWdlIiwiYXBwIiwicyIsInJlcXVpcmUiLCJQT1JUIiwiYiIsInByb2Nlc3MiLCJlbnYiLCJsaXN0ZW4iLCJmIiwiY29uc29sZSIsImxvZyJdLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBhcHAgPSByZXF1aXJlKCcuL2luZGV4LmpzJyk7XG5cbmNvbnN0IFBPUlQgPSBwcm9jZXNzLmVudi5QT1JUIHx8IDMwMTM7XG5cbmFwcC5saXN0ZW4oUE9SVCwgKCkgPT4ge1xuICBjb25zb2xlLmxvZyhgUmVzZWFyY2ggQ2VudGVyIFNlcnZpY2UgcnVubmluZyBvbiBwb3J0ICR7UE9SVH1gKTtcbn0pOyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBZVk7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQWZaLE1BQU1FLEdBQUc7QUFBQTtBQUFBLENBQUFGLGNBQUEsR0FBQUcsQ0FBQSxPQUFHQyxPQUFPLENBQUMsWUFBWSxDQUFDO0FBRWpDLE1BQU1DLElBQUk7QUFBQTtBQUFBLENBQUFMLGNBQUEsR0FBQUcsQ0FBQTtBQUFHO0FBQUEsQ0FBQUgsY0FBQSxHQUFBTSxDQUFBLFVBQUFDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDSCxJQUFJO0FBQUE7QUFBQSxDQUFBTCxjQUFBLEdBQUFNLENBQUEsVUFBSSxJQUFJO0FBQUM7QUFBQU4sY0FBQSxHQUFBRyxDQUFBO0FBRXRDRCxHQUFHLENBQUNPLE1BQU0sQ0FBQ0osSUFBSSxFQUFFLE1BQU07RUFBQTtFQUFBTCxjQUFBLEdBQUFVLENBQUE7RUFBQVYsY0FBQSxHQUFBRyxDQUFBO0VBQ3JCUSxPQUFPLENBQUNDLEdBQUcsQ0FBQywyQ0FBMkNQLElBQUksRUFBRSxDQUFDO0FBQ2hFLENBQUMsQ0FBQyIsImlnbm9yZUxpc3QiOltdfQ==

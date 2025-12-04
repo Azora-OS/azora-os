@@ -1,0 +1,182 @@
+f201ebe9f32d42c6c5c0e8057496d2c4
+/* istanbul ignore next */
+function cov_1tafjbwlso() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/test-utils/src/mocks/stripe.mock.ts";
+  var hash = "ac780ff233780424fc8cf26d925191f18a08130c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/test-utils/src/mocks/stripe.mock.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 14
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 13,
+          column: 19
+        },
+        end: {
+          line: 24,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 26,
+          column: 12
+        },
+        end: {
+          line: 32,
+          column: 3
+        }
+      },
+      "3": {
+        start: {
+          line: 34,
+          column: 12
+        },
+        end: {
+          line: 40,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 43,
+          column: 32
+        },
+        end: {
+          line: 43,
+          column: 66
+        }
+      },
+      "5": {
+        start: {
+          line: 43,
+          column: 50
+        },
+        end: {
+          line: 43,
+          column: 66
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 43,
+            column: 32
+          },
+          end: {
+            line: 43,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 43,
+            column: 50
+          },
+          end: {
+            line: 43,
+            column: 66
+          }
+        },
+        line: 43
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "ac780ff233780424fc8cf26d925191f18a08130c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1tafjbwlso = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1tafjbwlso();
+export class StripeMock {
+  customers =
+  /* istanbul ignore next */
+  (cov_1tafjbwlso().s[0]++, {
+    create: jest.fn().mockResolvedValue({
+      id: 'cus_test123',
+      email: 'test@azora.world'
+    }),
+    retrieve: jest.fn().mockResolvedValue({
+      id: 'cus_test123',
+      email: 'test@azora.world'
+    })
+  });
+  paymentIntents =
+  /* istanbul ignore next */
+  (cov_1tafjbwlso().s[1]++, {
+    create: jest.fn().mockResolvedValue({
+      id: 'pi_test123',
+      status: 'succeeded',
+      amount: 1000,
+      currency: 'usd'
+    }),
+    retrieve: jest.fn().mockResolvedValue({
+      id: 'pi_test123',
+      status: 'succeeded'
+    })
+  });
+  charges =
+  /* istanbul ignore next */
+  (cov_1tafjbwlso().s[2]++, {
+    create: jest.fn().mockResolvedValue({
+      id: 'ch_test123',
+      status: 'succeeded',
+      amount: 1000
+    })
+  });
+  refunds =
+  /* istanbul ignore next */
+  (cov_1tafjbwlso().s[3]++, {
+    create: jest.fn().mockResolvedValue({
+      id: 're_test123',
+      status: 'succeeded',
+      amount: 1000
+    })
+  });
+}
+/* istanbul ignore next */
+cov_1tafjbwlso().s[4]++;
+export const createStripeMock = () => {
+  /* istanbul ignore next */
+  cov_1tafjbwlso().f[0]++;
+  cov_1tafjbwlso().s[5]++;
+  return new StripeMock();
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMXRhZmpid2xzbyIsImFjdHVhbENvdmVyYWdlIiwiU3RyaXBlTW9jayIsImN1c3RvbWVycyIsInMiLCJjcmVhdGUiLCJqZXN0IiwiZm4iLCJtb2NrUmVzb2x2ZWRWYWx1ZSIsImlkIiwiZW1haWwiLCJyZXRyaWV2ZSIsInBheW1lbnRJbnRlbnRzIiwic3RhdHVzIiwiYW1vdW50IiwiY3VycmVuY3kiLCJjaGFyZ2VzIiwicmVmdW5kcyIsImNyZWF0ZVN0cmlwZU1vY2siLCJmIl0sInNvdXJjZXMiOlsic3RyaXBlLm1vY2sudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIFN0cmlwZU1vY2sge1xuICBjdXN0b21lcnMgPSB7XG4gICAgY3JlYXRlOiBqZXN0LmZuKCkubW9ja1Jlc29sdmVkVmFsdWUoe1xuICAgICAgaWQ6ICdjdXNfdGVzdDEyMycsXG4gICAgICBlbWFpbDogJ3Rlc3RAYXpvcmEud29ybGQnLFxuICAgIH0pLFxuICAgIHJldHJpZXZlOiBqZXN0LmZuKCkubW9ja1Jlc29sdmVkVmFsdWUoe1xuICAgICAgaWQ6ICdjdXNfdGVzdDEyMycsXG4gICAgICBlbWFpbDogJ3Rlc3RAYXpvcmEud29ybGQnLFxuICAgIH0pLFxuICB9O1xuXG4gIHBheW1lbnRJbnRlbnRzID0ge1xuICAgIGNyZWF0ZTogamVzdC5mbigpLm1vY2tSZXNvbHZlZFZhbHVlKHtcbiAgICAgIGlkOiAncGlfdGVzdDEyMycsXG4gICAgICBzdGF0dXM6ICdzdWNjZWVkZWQnLFxuICAgICAgYW1vdW50OiAxMDAwLFxuICAgICAgY3VycmVuY3k6ICd1c2QnLFxuICAgIH0pLFxuICAgIHJldHJpZXZlOiBqZXN0LmZuKCkubW9ja1Jlc29sdmVkVmFsdWUoe1xuICAgICAgaWQ6ICdwaV90ZXN0MTIzJyxcbiAgICAgIHN0YXR1czogJ3N1Y2NlZWRlZCcsXG4gICAgfSksXG4gIH07XG5cbiAgY2hhcmdlcyA9IHtcbiAgICBjcmVhdGU6IGplc3QuZm4oKS5tb2NrUmVzb2x2ZWRWYWx1ZSh7XG4gICAgICBpZDogJ2NoX3Rlc3QxMjMnLFxuICAgICAgc3RhdHVzOiAnc3VjY2VlZGVkJyxcbiAgICAgIGFtb3VudDogMTAwMCxcbiAgICB9KSxcbiAgfTtcblxuICByZWZ1bmRzID0ge1xuICAgIGNyZWF0ZTogamVzdC5mbigpLm1vY2tSZXNvbHZlZFZhbHVlKHtcbiAgICAgIGlkOiAncmVfdGVzdDEyMycsXG4gICAgICBzdGF0dXM6ICdzdWNjZWVkZWQnLFxuICAgICAgYW1vdW50OiAxMDAwLFxuICAgIH0pLFxuICB9O1xufVxuXG5leHBvcnQgY29uc3QgY3JlYXRlU3RyaXBlTW9jayA9ICgpOiBTdHJpcGVNb2NrID0+IG5ldyBTdHJpcGVNb2NrKCk7XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFlWTtJQUFBQSxjQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxjQUFBO0FBZlosT0FBTyxNQUFNRSxVQUFVLENBQUM7RUFDdEJDLFNBQVM7RUFBQTtFQUFBLENBQUFILGNBQUEsR0FBQUksQ0FBQSxPQUFHO0lBQ1ZDLE1BQU0sRUFBRUMsSUFBSSxDQUFDQyxFQUFFLENBQUMsQ0FBQyxDQUFDQyxpQkFBaUIsQ0FBQztNQUNsQ0MsRUFBRSxFQUFFLGFBQWE7TUFDakJDLEtBQUssRUFBRTtJQUNULENBQUMsQ0FBQztJQUNGQyxRQUFRLEVBQUVMLElBQUksQ0FBQ0MsRUFBRSxDQUFDLENBQUMsQ0FBQ0MsaUJBQWlCLENBQUM7TUFDcENDLEVBQUUsRUFBRSxhQUFhO01BQ2pCQyxLQUFLLEVBQUU7SUFDVCxDQUFDO0VBQ0gsQ0FBQztFQUVERSxjQUFjO0VBQUE7RUFBQSxDQUFBWixjQUFBLEdBQUFJLENBQUEsT0FBRztJQUNmQyxNQUFNLEVBQUVDLElBQUksQ0FBQ0MsRUFBRSxDQUFDLENBQUMsQ0FBQ0MsaUJBQWlCLENBQUM7TUFDbENDLEVBQUUsRUFBRSxZQUFZO01BQ2hCSSxNQUFNLEVBQUUsV0FBVztNQUNuQkMsTUFBTSxFQUFFLElBQUk7TUFDWkMsUUFBUSxFQUFFO0lBQ1osQ0FBQyxDQUFDO0lBQ0ZKLFFBQVEsRUFBRUwsSUFBSSxDQUFDQyxFQUFFLENBQUMsQ0FBQyxDQUFDQyxpQkFBaUIsQ0FBQztNQUNwQ0MsRUFBRSxFQUFFLFlBQVk7TUFDaEJJLE1BQU0sRUFBRTtJQUNWLENBQUM7RUFDSCxDQUFDO0VBRURHLE9BQU87RUFBQTtFQUFBLENBQUFoQixjQUFBLEdBQUFJLENBQUEsT0FBRztJQUNSQyxNQUFNLEVBQUVDLElBQUksQ0FBQ0MsRUFBRSxDQUFDLENBQUMsQ0FBQ0MsaUJBQWlCLENBQUM7TUFDbENDLEVBQUUsRUFBRSxZQUFZO01BQ2hCSSxNQUFNLEVBQUUsV0FBVztNQUNuQkMsTUFBTSxFQUFFO0lBQ1YsQ0FBQztFQUNILENBQUM7RUFFREcsT0FBTztFQUFBO0VBQUEsQ0FBQWpCLGNBQUEsR0FBQUksQ0FBQSxPQUFHO0lBQ1JDLE1BQU0sRUFBRUMsSUFBSSxDQUFDQyxFQUFFLENBQUMsQ0FBQyxDQUFDQyxpQkFBaUIsQ0FBQztNQUNsQ0MsRUFBRSxFQUFFLFlBQVk7TUFDaEJJLE1BQU0sRUFBRSxXQUFXO01BQ25CQyxNQUFNLEVBQUU7SUFDVixDQUFDO0VBQ0gsQ0FBQztBQUNIO0FBQUM7QUFBQWQsY0FBQSxHQUFBSSxDQUFBO0FBRUQsT0FBTyxNQUFNYyxnQkFBZ0IsR0FBR0EsQ0FBQSxLQUFrQjtFQUFBO0VBQUFsQixjQUFBLEdBQUFtQixDQUFBO0VBQUFuQixjQUFBLEdBQUFJLENBQUE7RUFBQSxXQUFJRixVQUFVLENBQUMsQ0FBQztBQUFELENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

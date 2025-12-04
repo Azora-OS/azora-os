@@ -1,0 +1,82 @@
+b82ca66008efffd76d101fbe07fdf751
+/* istanbul ignore next */
+function cov_ciz80enot() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/javascript/instrumentation-client.ts";
+  var hash = "6ec584f0c3586c3e84b4f61fde87feaea514ef1e";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/javascript/instrumentation-client.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 26,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 29,
+          column: 39
+        },
+        end: {
+          line: 29,
+          column: 74
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "6ec584f0c3586c3e84b4f61fde87feaea514ef1e"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_ciz80enot = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_ciz80enot();
+import * as Sentry from "@sentry/nextjs";
+/* istanbul ignore next */
+cov_ciz80enot().s[0]++;
+Sentry.init({
+  dsn: process.env.SENTRY_DSN,
+  // Adjust this value in production, or use tracesSampler for greater control
+  tracesSampleRate: 1,
+  // Setting this option to true will print useful information to the console while you're setting up Sentry.
+  debug: false,
+  replaysOnErrorSampleRate: 1.0,
+  // This sets the sample rate to be 10%. You may want this to be 100% while
+  // in development and sample at a lower rate in production
+  replaysSessionSampleRate: 0.1,
+  // You can remove this option if you're not planning to use the Sentry Session Replay feature:
+  integrations: [Sentry.replayIntegration({
+    // Additional Replay configuration goes in here, for example:
+    maskAllText: true,
+    blockAllMedia: true
+  })]
+});
+
+// Export the required hooks for navigation instrumentation
+export const onRouterTransitionStart =
+/* istanbul ignore next */
+(cov_ciz80enot().s[1]++, Sentry.captureRouterTransitionStart);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfY2l6ODBlbm90IiwiYWN0dWFsQ292ZXJhZ2UiLCJTZW50cnkiLCJzIiwiaW5pdCIsImRzbiIsInByb2Nlc3MiLCJlbnYiLCJTRU5UUllfRFNOIiwidHJhY2VzU2FtcGxlUmF0ZSIsImRlYnVnIiwicmVwbGF5c09uRXJyb3JTYW1wbGVSYXRlIiwicmVwbGF5c1Nlc3Npb25TYW1wbGVSYXRlIiwiaW50ZWdyYXRpb25zIiwicmVwbGF5SW50ZWdyYXRpb24iLCJtYXNrQWxsVGV4dCIsImJsb2NrQWxsTWVkaWEiLCJvblJvdXRlclRyYW5zaXRpb25TdGFydCIsImNhcHR1cmVSb3V0ZXJUcmFuc2l0aW9uU3RhcnQiXSwic291cmNlcyI6WyJpbnN0cnVtZW50YXRpb24tY2xpZW50LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIFNlbnRyeSBmcm9tIFwiQHNlbnRyeS9uZXh0anNcIjtcblxuU2VudHJ5LmluaXQoe1xuICBkc246IHByb2Nlc3MuZW52LlNFTlRSWV9EU04sXG5cbiAgLy8gQWRqdXN0IHRoaXMgdmFsdWUgaW4gcHJvZHVjdGlvbiwgb3IgdXNlIHRyYWNlc1NhbXBsZXIgZm9yIGdyZWF0ZXIgY29udHJvbFxuICB0cmFjZXNTYW1wbGVSYXRlOiAxLFxuXG4gIC8vIFNldHRpbmcgdGhpcyBvcHRpb24gdG8gdHJ1ZSB3aWxsIHByaW50IHVzZWZ1bCBpbmZvcm1hdGlvbiB0byB0aGUgY29uc29sZSB3aGlsZSB5b3UncmUgc2V0dGluZyB1cCBTZW50cnkuXG4gIGRlYnVnOiBmYWxzZSxcblxuICByZXBsYXlzT25FcnJvclNhbXBsZVJhdGU6IDEuMCxcblxuICAvLyBUaGlzIHNldHMgdGhlIHNhbXBsZSByYXRlIHRvIGJlIDEwJS4gWW91IG1heSB3YW50IHRoaXMgdG8gYmUgMTAwJSB3aGlsZVxuICAvLyBpbiBkZXZlbG9wbWVudCBhbmQgc2FtcGxlIGF0IGEgbG93ZXIgcmF0ZSBpbiBwcm9kdWN0aW9uXG4gIHJlcGxheXNTZXNzaW9uU2FtcGxlUmF0ZTogMC4xLFxuXG4gIC8vIFlvdSBjYW4gcmVtb3ZlIHRoaXMgb3B0aW9uIGlmIHlvdSdyZSBub3QgcGxhbm5pbmcgdG8gdXNlIHRoZSBTZW50cnkgU2Vzc2lvbiBSZXBsYXkgZmVhdHVyZTpcbiAgaW50ZWdyYXRpb25zOiBbXG4gICAgU2VudHJ5LnJlcGxheUludGVncmF0aW9uKHtcbiAgICAgIC8vIEFkZGl0aW9uYWwgUmVwbGF5IGNvbmZpZ3VyYXRpb24gZ29lcyBpbiBoZXJlLCBmb3IgZXhhbXBsZTpcbiAgICAgIG1hc2tBbGxUZXh0OiB0cnVlLFxuICAgICAgYmxvY2tBbGxNZWRpYTogdHJ1ZSxcbiAgICB9KSxcbiAgXSxcbn0pO1xuXG4vLyBFeHBvcnQgdGhlIHJlcXVpcmVkIGhvb2tzIGZvciBuYXZpZ2F0aW9uIGluc3RydW1lbnRhdGlvblxuZXhwb3J0IGNvbnN0IG9uUm91dGVyVHJhbnNpdGlvblN0YXJ0ID0gU2VudHJ5LmNhcHR1cmVSb3V0ZXJUcmFuc2l0aW9uU3RhcnQ7XG5cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFlWTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBZlosT0FBTyxLQUFLRSxNQUFNLE1BQU0sZ0JBQWdCO0FBQUM7QUFBQUYsYUFBQSxHQUFBRyxDQUFBO0FBRXpDRCxNQUFNLENBQUNFLElBQUksQ0FBQztFQUNWQyxHQUFHLEVBQUVDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDQyxVQUFVO0VBRTNCO0VBQ0FDLGdCQUFnQixFQUFFLENBQUM7RUFFbkI7RUFDQUMsS0FBSyxFQUFFLEtBQUs7RUFFWkMsd0JBQXdCLEVBQUUsR0FBRztFQUU3QjtFQUNBO0VBQ0FDLHdCQUF3QixFQUFFLEdBQUc7RUFFN0I7RUFDQUMsWUFBWSxFQUFFLENBQ1pYLE1BQU0sQ0FBQ1ksaUJBQWlCLENBQUM7SUFDdkI7SUFDQUMsV0FBVyxFQUFFLElBQUk7SUFDakJDLGFBQWEsRUFBRTtFQUNqQixDQUFDLENBQUM7QUFFTixDQUFDLENBQUM7O0FBRUY7QUFDQSxPQUFPLE1BQU1DLHVCQUF1QjtBQUFBO0FBQUEsQ0FBQWpCLGFBQUEsR0FBQUcsQ0FBQSxPQUFHRCxNQUFNLENBQUNnQiw0QkFBNEIiLCJpZ25vcmVMaXN0IjpbXX0=

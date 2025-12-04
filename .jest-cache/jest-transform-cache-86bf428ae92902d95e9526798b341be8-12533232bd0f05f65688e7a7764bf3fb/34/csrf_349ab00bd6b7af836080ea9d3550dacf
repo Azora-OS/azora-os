@@ -1,0 +1,53 @@
+7e4b03f5112cfd562bc251eca2d7a7f7
+/* istanbul ignore next */
+function cov_2j5f0njliv() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/security-middleware/src/csrf.ts";
+  var hash = "123f569e7cd4edc85d53b307f269240560cdc138";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/security-middleware/src/csrf.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 30
+        },
+        end: {
+          line: 7,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "123f569e7cd4edc85d53b307f269240560cdc138"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2j5f0njliv = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2j5f0njliv();
+import csrf from 'csurf';
+import cookieParser from 'cookie-parser';
+export const csrfMiddleware =
+/* istanbul ignore next */
+(cov_2j5f0njliv().s[0]++, [cookieParser(), csrf({
+  cookie: true
+})]);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMmo1ZjBuamxpdiIsImFjdHVhbENvdmVyYWdlIiwiY3NyZiIsImNvb2tpZVBhcnNlciIsImNzcmZNaWRkbGV3YXJlIiwicyIsImNvb2tpZSJdLCJzb3VyY2VzIjpbImNzcmYudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGNzcmYgZnJvbSAnY3N1cmYnO1xuaW1wb3J0IGNvb2tpZVBhcnNlciBmcm9tICdjb29raWUtcGFyc2VyJztcblxuZXhwb3J0IGNvbnN0IGNzcmZNaWRkbGV3YXJlID0gW1xuICBjb29raWVQYXJzZXIoKSxcbiAgY3NyZih7IGNvb2tpZTogdHJ1ZSB9KVxuXTtcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBZVk7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQWZaLE9BQU9FLElBQUksTUFBTSxPQUFPO0FBQ3hCLE9BQU9DLFlBQVksTUFBTSxlQUFlO0FBRXhDLE9BQU8sTUFBTUMsY0FBYztBQUFBO0FBQUEsQ0FBQUosY0FBQSxHQUFBSyxDQUFBLE9BQUcsQ0FDNUJGLFlBQVksQ0FBQyxDQUFDLEVBQ2RELElBQUksQ0FBQztFQUFFSSxNQUFNLEVBQUU7QUFBSyxDQUFDLENBQUMsQ0FDdkIiLCJpZ25vcmVMaXN0IjpbXX0=

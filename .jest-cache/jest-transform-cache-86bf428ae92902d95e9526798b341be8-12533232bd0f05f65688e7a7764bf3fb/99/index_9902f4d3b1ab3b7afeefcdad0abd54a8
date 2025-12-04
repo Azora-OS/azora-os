@@ -1,0 +1,48 @@
+9a0272ab65df707615f30b1f867df99c
+/* istanbul ignore next */
+function cov_l5qe50wlk() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/shared-infrastructure/index.ts";
+  var hash = "1152a97c023fc53ddba89566883705844b65e62a";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/shared-infrastructure/index.ts",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "1152a97c023fc53ddba89566883705844b65e62a"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_l5qe50wlk = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_l5qe50wlk();
+/*
+AZORA PROPRIETARY LICENSE
+Copyright © 2025 Azora ES (Pty) Ltd. All Rights Reserved.
+
+SHARED INFRASTRUCTURE EXPORTS
+*/
+
+export * from './africa-cdn';
+export * from './river-flows';
+export * from './mycelium-network';
+export * from './tree-architecture';
+export { africaCDN } from './africa-cdn';
+export { riverFlows } from './river-flows';
+export { myceliumNetwork } from './mycelium-network';
+export { treeArchitecture } from './tree-architecture';
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfbDVxZTUwd2xrIiwiYWN0dWFsQ292ZXJhZ2UiLCJhZnJpY2FDRE4iLCJyaXZlckZsb3dzIiwibXljZWxpdW1OZXR3b3JrIiwidHJlZUFyY2hpdGVjdHVyZSJdLCJzb3VyY2VzIjpbImluZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbIi8qXG5BWk9SQSBQUk9QUklFVEFSWSBMSUNFTlNFXG5Db3B5cmlnaHQgwqkgMjAyNSBBem9yYSBFUyAoUHR5KSBMdGQuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuXG5cblNIQVJFRCBJTkZSQVNUUlVDVFVSRSBFWFBPUlRTXG4qL1xuXG5leHBvcnQgKiBmcm9tICcuL2FmcmljYS1jZG4nO1xuZXhwb3J0ICogZnJvbSAnLi9yaXZlci1mbG93cyc7XG5leHBvcnQgKiBmcm9tICcuL215Y2VsaXVtLW5ldHdvcmsnO1xuZXhwb3J0ICogZnJvbSAnLi90cmVlLWFyY2hpdGVjdHVyZSc7XG5cbmV4cG9ydCB7IGFmcmljYUNETiB9IGZyb20gJy4vYWZyaWNhLWNkbic7XG5leHBvcnQgeyByaXZlckZsb3dzIH0gZnJvbSAnLi9yaXZlci1mbG93cyc7XG5leHBvcnQgeyBteWNlbGl1bU5ldHdvcmsgfSBmcm9tICcuL215Y2VsaXVtLW5ldHdvcmsnO1xuZXhwb3J0IHsgdHJlZUFyY2hpdGVjdHVyZSB9IGZyb20gJy4vdHJlZS1hcmNoaXRlY3R1cmUnO1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWVZO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFmWjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUEsY0FBYyxjQUFjO0FBQzVCLGNBQWMsZUFBZTtBQUM3QixjQUFjLG9CQUFvQjtBQUNsQyxjQUFjLHFCQUFxQjtBQUVuQyxTQUFTRSxTQUFTLFFBQVEsY0FBYztBQUN4QyxTQUFTQyxVQUFVLFFBQVEsZUFBZTtBQUMxQyxTQUFTQyxlQUFlLFFBQVEsb0JBQW9CO0FBQ3BELFNBQVNDLGdCQUFnQixRQUFRLHFCQUFxQiIsImlnbm9yZUxpc3QiOltdfQ==

@@ -1,0 +1,57 @@
+57443368d398b6c37f3e56af57d9c7e2
+/* istanbul ignore next */
+function cov_udsp7eb1() {
+  var path = "/home/runner/work/azora-os/azora-os/services/ai-orchestrator/src/constitution/rules.js";
+  var hash = "cf2dc5fea454e28bf4d6365e87ad587bc67bc9c3";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/ai-orchestrator/src/constitution/rules.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 30,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "cf2dc5fea454e28bf4d6365e87ad587bc67bc9c3"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_udsp7eb1 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_udsp7eb1();
+cov_udsp7eb1().s[0]++;
+// Azora Constitution Rules
+module.exports = {
+  CONSTITUTION: {
+    SAFETY: ['No harmful content', 'No violence promotion', 'No dangerous instructions'],
+    PRIVACY: ['Respect user privacy', 'No unauthorized data collection', 'Secure data handling'],
+    FAIRNESS: ['No discrimination', 'Equal treatment', 'Inclusive design'],
+    TRANSPARENCY: ['Clear communication', 'Honest responses', 'Acknowledge limitations'],
+    UBUNTU: ['I am because we are', 'Community benefit', 'Shared prosperity']
+  }
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfdWRzcDdlYjEiLCJhY3R1YWxDb3ZlcmFnZSIsInMiLCJtb2R1bGUiLCJleHBvcnRzIiwiQ09OU1RJVFVUSU9OIiwiU0FGRVRZIiwiUFJJVkFDWSIsIkZBSVJORVNTIiwiVFJBTlNQQVJFTkNZIiwiVUJVTlRVIl0sInNvdXJjZXMiOlsicnVsZXMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gQXpvcmEgQ29uc3RpdHV0aW9uIFJ1bGVzXG5tb2R1bGUuZXhwb3J0cyA9IHtcbiAgICBDT05TVElUVVRJT046IHtcbiAgICAgICAgU0FGRVRZOiBbXG4gICAgICAgICAgICAnTm8gaGFybWZ1bCBjb250ZW50JyxcbiAgICAgICAgICAgICdObyB2aW9sZW5jZSBwcm9tb3Rpb24nLFxuICAgICAgICAgICAgJ05vIGRhbmdlcm91cyBpbnN0cnVjdGlvbnMnXG4gICAgICAgIF0sXG4gICAgICAgIFBSSVZBQ1k6IFtcbiAgICAgICAgICAgICdSZXNwZWN0IHVzZXIgcHJpdmFjeScsXG4gICAgICAgICAgICAnTm8gdW5hdXRob3JpemVkIGRhdGEgY29sbGVjdGlvbicsXG4gICAgICAgICAgICAnU2VjdXJlIGRhdGEgaGFuZGxpbmcnXG4gICAgICAgIF0sXG4gICAgICAgIEZBSVJORVNTOiBbXG4gICAgICAgICAgICAnTm8gZGlzY3JpbWluYXRpb24nLFxuICAgICAgICAgICAgJ0VxdWFsIHRyZWF0bWVudCcsXG4gICAgICAgICAgICAnSW5jbHVzaXZlIGRlc2lnbidcbiAgICAgICAgXSxcbiAgICAgICAgVFJBTlNQQVJFTkNZOiBbXG4gICAgICAgICAgICAnQ2xlYXIgY29tbXVuaWNhdGlvbicsXG4gICAgICAgICAgICAnSG9uZXN0IHJlc3BvbnNlcycsXG4gICAgICAgICAgICAnQWNrbm93bGVkZ2UgbGltaXRhdGlvbnMnXG4gICAgICAgIF0sXG4gICAgICAgIFVCVU5UVTogW1xuICAgICAgICAgICAgJ0kgYW0gYmVjYXVzZSB3ZSBhcmUnLFxuICAgICAgICAgICAgJ0NvbW11bml0eSBiZW5lZml0JyxcbiAgICAgICAgICAgICdTaGFyZWQgcHJvc3Blcml0eSdcbiAgICAgICAgXVxuICAgIH1cbn07XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWVZO0lBQUFBLFlBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELFlBQUE7QUFBQUEsWUFBQSxHQUFBRSxDQUFBO0FBZlo7QUFDQUMsTUFBTSxDQUFDQyxPQUFPLEdBQUc7RUFDYkMsWUFBWSxFQUFFO0lBQ1ZDLE1BQU0sRUFBRSxDQUNKLG9CQUFvQixFQUNwQix1QkFBdUIsRUFDdkIsMkJBQTJCLENBQzlCO0lBQ0RDLE9BQU8sRUFBRSxDQUNMLHNCQUFzQixFQUN0QixpQ0FBaUMsRUFDakMsc0JBQXNCLENBQ3pCO0lBQ0RDLFFBQVEsRUFBRSxDQUNOLG1CQUFtQixFQUNuQixpQkFBaUIsRUFDakIsa0JBQWtCLENBQ3JCO0lBQ0RDLFlBQVksRUFBRSxDQUNWLHFCQUFxQixFQUNyQixrQkFBa0IsRUFDbEIseUJBQXlCLENBQzVCO0lBQ0RDLE1BQU0sRUFBRSxDQUNKLHFCQUFxQixFQUNyQixtQkFBbUIsRUFDbkIsbUJBQW1CO0VBRTNCO0FBQ0osQ0FBQyIsImlnbm9yZUxpc3QiOltdfQ==

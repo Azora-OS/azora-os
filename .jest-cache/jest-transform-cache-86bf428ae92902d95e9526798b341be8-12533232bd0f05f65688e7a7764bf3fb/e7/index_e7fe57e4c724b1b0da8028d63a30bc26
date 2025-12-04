@@ -1,0 +1,160 @@
+6f5634bad91452fb2c924ba1c64218e1
+/* istanbul ignore next */
+function cov_xjfa7dejp() {
+  var path = "/home/runner/work/azora-os/azora-os/services/azora-cloud/ai-routing/index.js";
+  var hash = "3914710311e82cf267fcd3d781585c0449a0ffde";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/azora-cloud/ai-routing/index.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 12
+        },
+        end: {
+          line: 1,
+          column: 31
+        }
+      },
+      "1": {
+        start: {
+          line: 2,
+          column: 13
+        },
+        end: {
+          line: 2,
+          column: 37
+        }
+      },
+      "2": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 63
+        }
+      },
+      "3": {
+        start: {
+          line: 3,
+          column: 23
+        },
+        end: {
+          line: 3,
+          column: 61
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 3,
+            column: 17
+          },
+          end: {
+            line: 3,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 3,
+            column: 23
+          },
+          end: {
+            line: 3,
+            column: 61
+          }
+        },
+        line: 3
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 2,
+            column: 13
+          },
+          end: {
+            line: 2,
+            column: 37
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 2,
+            column: 13
+          },
+          end: {
+            line: 2,
+            column: 29
+          }
+        }, {
+          start: {
+            line: 2,
+            column: 33
+          },
+          end: {
+            line: 2,
+            column: 37
+          }
+        }],
+        line: 2
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "3914710311e82cf267fcd3d781585c0449a0ffde"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_xjfa7dejp = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_xjfa7dejp();
+const app =
+/* istanbul ignore next */
+(cov_xjfa7dejp().s[0]++, require('./server'));
+const PORT =
+/* istanbul ignore next */
+(cov_xjfa7dejp().s[1]++,
+/* istanbul ignore next */
+(cov_xjfa7dejp().b[0][0]++, process.env.PORT) ||
+/* istanbul ignore next */
+(cov_xjfa7dejp().b[0][1]++, 3000));
+/* istanbul ignore next */
+cov_xjfa7dejp().s[2]++;
+app.listen(PORT, () => {
+  /* istanbul ignore next */
+  cov_xjfa7dejp().f[0]++;
+  cov_xjfa7dejp().s[3]++;
+  return console.log(`✨ ai-routing on ${PORT}`);
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfeGpmYTdkZWpwIiwiYWN0dWFsQ292ZXJhZ2UiLCJhcHAiLCJzIiwicmVxdWlyZSIsIlBPUlQiLCJiIiwicHJvY2VzcyIsImVudiIsImxpc3RlbiIsImYiLCJjb25zb2xlIiwibG9nIl0sInNvdXJjZXMiOlsiaW5kZXguanMiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgYXBwID0gcmVxdWlyZSgnLi9zZXJ2ZXInKTtcbmNvbnN0IFBPUlQgPSBwcm9jZXNzLmVudi5QT1JUIHx8IDMwMDA7XG5hcHAubGlzdGVuKFBPUlQsICgpID0+IGNvbnNvbGUubG9nKGDinKggYWktcm91dGluZyBvbiAke1BPUlR9YCkpOyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBZVk7SUFBQUEsYUFBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsYUFBQTtBQWZaLE1BQU1FLEdBQUc7QUFBQTtBQUFBLENBQUFGLGFBQUEsR0FBQUcsQ0FBQSxPQUFHQyxPQUFPLENBQUMsVUFBVSxDQUFDO0FBQy9CLE1BQU1DLElBQUk7QUFBQTtBQUFBLENBQUFMLGFBQUEsR0FBQUcsQ0FBQTtBQUFHO0FBQUEsQ0FBQUgsYUFBQSxHQUFBTSxDQUFBLFVBQUFDLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDSCxJQUFJO0FBQUE7QUFBQSxDQUFBTCxhQUFBLEdBQUFNLENBQUEsVUFBSSxJQUFJO0FBQUM7QUFBQU4sYUFBQSxHQUFBRyxDQUFBO0FBQ3RDRCxHQUFHLENBQUNPLE1BQU0sQ0FBQ0osSUFBSSxFQUFFLE1BQU07RUFBQTtFQUFBTCxhQUFBLEdBQUFVLENBQUE7RUFBQVYsYUFBQSxHQUFBRyxDQUFBO0VBQUEsT0FBQVEsT0FBTyxDQUFDQyxHQUFHLENBQUMsbUJBQW1CUCxJQUFJLEVBQUUsQ0FBQztBQUFELENBQUMsQ0FBQyIsImlnbm9yZUxpc3QiOltdfQ==

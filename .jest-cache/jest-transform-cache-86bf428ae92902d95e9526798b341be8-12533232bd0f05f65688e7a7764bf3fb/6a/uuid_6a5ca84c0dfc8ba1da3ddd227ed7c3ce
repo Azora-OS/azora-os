@@ -1,0 +1,254 @@
+1cdc5d4e00e8c55c783e3f9153e933ca
+/* istanbul ignore next */
+function cov_zazuugdbm() {
+  var path = "/home/runner/work/azora-os/azora-os/services/elara-incubator/src/utils/uuid.ts";
+  var hash = "0b799fbae9919f5919ec383b6d923b97a6154f90";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/elara-incubator/src/utils/uuid.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 6,
+          column: 2
+        },
+        end: {
+          line: 10,
+          column: 5
+        }
+      },
+      "1": {
+        start: {
+          line: 7,
+          column: 14
+        },
+        end: {
+          line: 7,
+          column: 38
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 14
+        },
+        end: {
+          line: 8,
+          column: 45
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 26
+        }
+      },
+      "4": {
+        start: {
+          line: 17,
+          column: 20
+        },
+        end: {
+          line: 17,
+          column: 85
+        }
+      },
+      "5": {
+        start: {
+          line: 18,
+          column: 2
+        },
+        end: {
+          line: 18,
+          column: 30
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "generateUUID",
+        decl: {
+          start: {
+            line: 5,
+            column: 16
+          },
+          end: {
+            line: 5,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 39
+          },
+          end: {
+            line: 11,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 6,
+            column: 65
+          },
+          end: {
+            line: 6,
+            column: 66
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 78
+          },
+          end: {
+            line: 10,
+            column: 3
+          }
+        },
+        line: 6
+      },
+      "2": {
+        name: "isValidUUID",
+        decl: {
+          start: {
+            line: 16,
+            column: 16
+          },
+          end: {
+            line: 16,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 16,
+            column: 51
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 16
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 8,
+            column: 14
+          },
+          end: {
+            line: 8,
+            column: 45
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 8,
+            column: 26
+          },
+          end: {
+            line: 8,
+            column: 27
+          }
+        }, {
+          start: {
+            line: 8,
+            column: 30
+          },
+          end: {
+            line: 8,
+            column: 45
+          }
+        }],
+        line: 8
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "0b799fbae9919f5919ec383b6d923b97a6154f90"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_zazuugdbm = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_zazuugdbm();
+/**
+ * Simple UUID v4 generator
+ * Generates a random UUID v4 string
+ */
+export function generateUUID() {
+  /* istanbul ignore next */
+  cov_zazuugdbm().f[0]++;
+  cov_zazuugdbm().s[0]++;
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+    /* istanbul ignore next */
+    cov_zazuugdbm().f[1]++;
+    const r =
+    /* istanbul ignore next */
+    (cov_zazuugdbm().s[1]++, Math.random() * 16 | 0);
+    const v =
+    /* istanbul ignore next */
+    (cov_zazuugdbm().s[2]++, c === 'x' ?
+    /* istanbul ignore next */
+    (cov_zazuugdbm().b[0][0]++, r) :
+    /* istanbul ignore next */
+    (cov_zazuugdbm().b[0][1]++, r & 0x3 | 0x8));
+    /* istanbul ignore next */
+    cov_zazuugdbm().s[3]++;
+    return v.toString(16);
+  });
+}
+
+/**
+ * Validate UUID format
+ */
+export function isValidUUID(uuid) {
+  /* istanbul ignore next */
+  cov_zazuugdbm().f[2]++;
+  const uuidRegex =
+  /* istanbul ignore next */
+  (cov_zazuugdbm().s[4]++, /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i);
+  /* istanbul ignore next */
+  cov_zazuugdbm().s[5]++;
+  return uuidRegex.test(uuid);
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfemF6dXVnZGJtIiwiYWN0dWFsQ292ZXJhZ2UiLCJnZW5lcmF0ZVVVSUQiLCJmIiwicyIsInJlcGxhY2UiLCJjIiwiciIsIk1hdGgiLCJyYW5kb20iLCJ2IiwiYiIsInRvU3RyaW5nIiwiaXNWYWxpZFVVSUQiLCJ1dWlkIiwidXVpZFJlZ2V4IiwidGVzdCJdLCJzb3VyY2VzIjpbInV1aWQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBTaW1wbGUgVVVJRCB2NCBnZW5lcmF0b3JcbiAqIEdlbmVyYXRlcyBhIHJhbmRvbSBVVUlEIHY0IHN0cmluZ1xuICovXG5leHBvcnQgZnVuY3Rpb24gZ2VuZXJhdGVVVUlEKCk6IHN0cmluZyB7XG4gIHJldHVybiAneHh4eHh4eHgteHh4eC00eHh4LXl4eHgteHh4eHh4eHh4eHh4Jy5yZXBsYWNlKC9beHldL2csIGZ1bmN0aW9uIChjKSB7XG4gICAgY29uc3QgciA9IChNYXRoLnJhbmRvbSgpICogMTYpIHwgMDtcbiAgICBjb25zdCB2ID0gYyA9PT0gJ3gnID8gciA6IChyICYgMHgzKSB8IDB4ODtcbiAgICByZXR1cm4gdi50b1N0cmluZygxNik7XG4gIH0pO1xufVxuXG4vKipcbiAqIFZhbGlkYXRlIFVVSUQgZm9ybWF0XG4gKi9cbmV4cG9ydCBmdW5jdGlvbiBpc1ZhbGlkVVVJRCh1dWlkOiBzdHJpbmcpOiBib29sZWFuIHtcbiAgY29uc3QgdXVpZFJlZ2V4ID0gL15bMC05YS1mXXs4fS1bMC05YS1mXXs0fS1bMC05YS1mXXs0fS1bMC05YS1mXXs0fS1bMC05YS1mXXsxMn0kL2k7XG4gIHJldHVybiB1dWlkUmVnZXgudGVzdCh1dWlkKTtcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBZVk7SUFBQUEsYUFBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsYUFBQTtBQWZaO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsT0FBTyxTQUFTRSxZQUFZQSxDQUFBLEVBQVc7RUFBQTtFQUFBRixhQUFBLEdBQUFHLENBQUE7RUFBQUgsYUFBQSxHQUFBSSxDQUFBO0VBQ3JDLE9BQU8sc0NBQXNDLENBQUNDLE9BQU8sQ0FBQyxPQUFPLEVBQUUsVUFBVUMsQ0FBQyxFQUFFO0lBQUE7SUFBQU4sYUFBQSxHQUFBRyxDQUFBO0lBQzFFLE1BQU1JLENBQUM7SUFBQTtJQUFBLENBQUFQLGFBQUEsR0FBQUksQ0FBQSxPQUFJSSxJQUFJLENBQUNDLE1BQU0sQ0FBQyxDQUFDLEdBQUcsRUFBRSxHQUFJLENBQUM7SUFDbEMsTUFBTUMsQ0FBQztJQUFBO0lBQUEsQ0FBQVYsYUFBQSxHQUFBSSxDQUFBLE9BQUdFLENBQUMsS0FBSyxHQUFHO0lBQUE7SUFBQSxDQUFBTixhQUFBLEdBQUFXLENBQUEsVUFBR0osQ0FBQztJQUFBO0lBQUEsQ0FBQVAsYUFBQSxHQUFBVyxDQUFBLFVBQUlKLENBQUMsR0FBRyxHQUFHLEdBQUksR0FBRztJQUFDO0lBQUFQLGFBQUEsR0FBQUksQ0FBQTtJQUMxQyxPQUFPTSxDQUFDLENBQUNFLFFBQVEsQ0FBQyxFQUFFLENBQUM7RUFDdkIsQ0FBQyxDQUFDO0FBQ0o7O0FBRUE7QUFDQTtBQUNBO0FBQ0EsT0FBTyxTQUFTQyxXQUFXQSxDQUFDQyxJQUFZLEVBQVc7RUFBQTtFQUFBZCxhQUFBLEdBQUFHLENBQUE7RUFDakQsTUFBTVksU0FBUztFQUFBO0VBQUEsQ0FBQWYsYUFBQSxHQUFBSSxDQUFBLE9BQUcsaUVBQWlFO0VBQUM7RUFBQUosYUFBQSxHQUFBSSxDQUFBO0VBQ3BGLE9BQU9XLFNBQVMsQ0FBQ0MsSUFBSSxDQUFDRixJQUFJLENBQUM7QUFDN0IiLCJpZ25vcmVMaXN0IjpbXX0=

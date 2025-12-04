@@ -1,0 +1,51 @@
+5f13cbdf1e346d8b3f3e7354d847c5ba
+/* istanbul ignore next */
+function cov_5u2dlf809() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/shared-design/index.js";
+  var hash = "f0f55627bceaf90796543e83340477a9473f6a3e";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/shared-design/index.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "f0f55627bceaf90796543e83340477a9473f6a3e"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_5u2dlf809 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_5u2dlf809();
+cov_5u2dlf809().s[0]++;
+// Shared design components
+module.exports = {
+  // Placeholder for shared design exports
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfNXUyZGxmODA5IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIFNoYXJlZCBkZXNpZ24gY29tcG9uZW50c1xubW9kdWxlLmV4cG9ydHMgPSB7XG4gIC8vIFBsYWNlaG9sZGVyIGZvciBzaGFyZWQgZGVzaWduIGV4cG9ydHNcbn07Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFlWTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBQUFBLGFBQUEsR0FBQUUsQ0FBQTtBQWZaO0FBQ0FDLE1BQU0sQ0FBQ0MsT0FBTyxHQUFHO0VBQ2Y7QUFBQSxDQUNEIiwiaWdub3JlTGlzdCI6W119

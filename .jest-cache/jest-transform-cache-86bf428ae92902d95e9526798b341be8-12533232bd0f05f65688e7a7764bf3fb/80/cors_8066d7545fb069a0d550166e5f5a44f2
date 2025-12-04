@@ -1,0 +1,97 @@
+0eb4ea662093347b0d779db156342147
+/* istanbul ignore next */
+function cov_14a56mdzm5() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/security-middleware/src/cors.ts";
+  var hash = "43a617866a3114810ab6e30ea804ac41912c5e9f";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/security-middleware/src/cors.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 30
+        },
+        end: {
+          line: 10,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 4,
+            column: 10
+          },
+          end: {
+            line: 4,
+            column: 60
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 4,
+            column: 10
+          },
+          end: {
+            line: 4,
+            column: 33
+          }
+        }, {
+          start: {
+            line: 4,
+            column: 37
+          },
+          end: {
+            line: 4,
+            column: 60
+          }
+        }],
+        line: 4
+      }
+    },
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {
+      "0": [0, 0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "43a617866a3114810ab6e30ea804ac41912c5e9f"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_14a56mdzm5 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_14a56mdzm5();
+import cors from 'cors';
+export const corsMiddleware =
+/* istanbul ignore next */
+(cov_14a56mdzm5().s[0]++, cors({
+  origin:
+  /* istanbul ignore next */
+  (cov_14a56mdzm5().b[0][0]++, process.env.CORS_ORIGIN) ||
+  /* istanbul ignore next */
+  (cov_14a56mdzm5().b[0][1]++, 'http://localhost:3000'),
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token'],
+  exposedHeaders: ['X-Total-Count', 'X-Page-Count'],
+  maxAge: 86400
+}));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMTRhNTZtZHptNSIsImFjdHVhbENvdmVyYWdlIiwiY29ycyIsImNvcnNNaWRkbGV3YXJlIiwicyIsIm9yaWdpbiIsImIiLCJwcm9jZXNzIiwiZW52IiwiQ09SU19PUklHSU4iLCJjcmVkZW50aWFscyIsIm1ldGhvZHMiLCJhbGxvd2VkSGVhZGVycyIsImV4cG9zZWRIZWFkZXJzIiwibWF4QWdlIl0sInNvdXJjZXMiOlsiY29ycy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY29ycyBmcm9tICdjb3JzJztcblxuZXhwb3J0IGNvbnN0IGNvcnNNaWRkbGV3YXJlID0gY29ycyh7XG4gIG9yaWdpbjogcHJvY2Vzcy5lbnYuQ09SU19PUklHSU4gfHwgJ2h0dHA6Ly9sb2NhbGhvc3Q6MzAwMCcsXG4gIGNyZWRlbnRpYWxzOiB0cnVlLFxuICBtZXRob2RzOiBbJ0dFVCcsICdQT1NUJywgJ1BVVCcsICdERUxFVEUnLCAnUEFUQ0gnLCAnT1BUSU9OUyddLFxuICBhbGxvd2VkSGVhZGVyczogWydDb250ZW50LVR5cGUnLCAnQXV0aG9yaXphdGlvbicsICdYLUNTUkYtVG9rZW4nXSxcbiAgZXhwb3NlZEhlYWRlcnM6IFsnWC1Ub3RhbC1Db3VudCcsICdYLVBhZ2UtQ291bnQnXSxcbiAgbWF4QWdlOiA4NjQwMFxufSk7XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWVZO0lBQUFBLGNBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGNBQUE7QUFmWixPQUFPRSxJQUFJLE1BQU0sTUFBTTtBQUV2QixPQUFPLE1BQU1DLGNBQWM7QUFBQTtBQUFBLENBQUFILGNBQUEsR0FBQUksQ0FBQSxPQUFHRixJQUFJLENBQUM7RUFDakNHLE1BQU07RUFBRTtFQUFBLENBQUFMLGNBQUEsR0FBQU0sQ0FBQSxVQUFBQyxPQUFPLENBQUNDLEdBQUcsQ0FBQ0MsV0FBVztFQUFBO0VBQUEsQ0FBQVQsY0FBQSxHQUFBTSxDQUFBLFVBQUksdUJBQXVCO0VBQzFESSxXQUFXLEVBQUUsSUFBSTtFQUNqQkMsT0FBTyxFQUFFLENBQUMsS0FBSyxFQUFFLE1BQU0sRUFBRSxLQUFLLEVBQUUsUUFBUSxFQUFFLE9BQU8sRUFBRSxTQUFTLENBQUM7RUFDN0RDLGNBQWMsRUFBRSxDQUFDLGNBQWMsRUFBRSxlQUFlLEVBQUUsY0FBYyxDQUFDO0VBQ2pFQyxjQUFjLEVBQUUsQ0FBQyxlQUFlLEVBQUUsY0FBYyxDQUFDO0VBQ2pEQyxNQUFNLEVBQUU7QUFDVixDQUFDLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

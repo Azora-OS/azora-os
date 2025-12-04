@@ -1,0 +1,44 @@
+2a97abadcc45b2b46f954410c2d2baab
+/* istanbul ignore next */
+function cov_epzkbn70f() {
+  var path = "/home/runner/work/azora-os/azora-os/packages/@azora/telemetry/src/index.ts";
+  var hash = "522c5d9d3f9bd68279483aebe883a6181e986ec6";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/packages/@azora/telemetry/src/index.ts",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "522c5d9d3f9bd68279483aebe883a6181e986ec6"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_epzkbn70f = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_epzkbn70f();
+/**
+ * @azora/telemetry
+ * Component usage analytics for Azora OS
+ * 
+ * Ubuntu principle: "What gets measured gets improved"
+ */
+
+// Export client
+export { TelemetryClient, initTelemetry, getTelemetry } from './client';
+// Export hooks
+export { useComponentTelemetry, useInteractionTelemetry, useRenderTelemetry, useErrorTelemetry, withTelemetry } from './hooks';
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfZXB6a2JuNzBmIiwiYWN0dWFsQ292ZXJhZ2UiLCJUZWxlbWV0cnlDbGllbnQiLCJpbml0VGVsZW1ldHJ5IiwiZ2V0VGVsZW1ldHJ5IiwidXNlQ29tcG9uZW50VGVsZW1ldHJ5IiwidXNlSW50ZXJhY3Rpb25UZWxlbWV0cnkiLCJ1c2VSZW5kZXJUZWxlbWV0cnkiLCJ1c2VFcnJvclRlbGVtZXRyeSIsIndpdGhUZWxlbWV0cnkiXSwic291cmNlcyI6WyJpbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEBhem9yYS90ZWxlbWV0cnlcbiAqIENvbXBvbmVudCB1c2FnZSBhbmFseXRpY3MgZm9yIEF6b3JhIE9TXG4gKiBcbiAqIFVidW50dSBwcmluY2lwbGU6IFwiV2hhdCBnZXRzIG1lYXN1cmVkIGdldHMgaW1wcm92ZWRcIlxuICovXG5cbi8vIEV4cG9ydCBjbGllbnRcbmV4cG9ydCB7IFRlbGVtZXRyeUNsaWVudCwgaW5pdFRlbGVtZXRyeSwgZ2V0VGVsZW1ldHJ5IH0gZnJvbSAnLi9jbGllbnQnO1xuZXhwb3J0IHR5cGUgeyBUZWxlbWV0cnlFdmVudCwgQ29tcG9uZW50RXZlbnQsIFRlbGVtZXRyeUNvbmZpZyB9IGZyb20gJy4vY2xpZW50JztcblxuLy8gRXhwb3J0IGhvb2tzXG5leHBvcnQge1xuICB1c2VDb21wb25lbnRUZWxlbWV0cnksXG4gIHVzZUludGVyYWN0aW9uVGVsZW1ldHJ5LFxuICB1c2VSZW5kZXJUZWxlbWV0cnksXG4gIHVzZUVycm9yVGVsZW1ldHJ5LFxuICB3aXRoVGVsZW1ldHJ5LFxufSBmcm9tICcuL2hvb2tzJztcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFlWTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBZlo7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0EsU0FBU0UsZUFBZSxFQUFFQyxhQUFhLEVBQUVDLFlBQVksUUFBUSxVQUFVO0FBR3ZFO0FBQ0EsU0FDRUMscUJBQXFCLEVBQ3JCQyx1QkFBdUIsRUFDdkJDLGtCQUFrQixFQUNsQkMsaUJBQWlCLEVBQ2pCQyxhQUFhLFFBQ1IsU0FBUyIsImlnbm9yZUxpc3QiOltdfQ==

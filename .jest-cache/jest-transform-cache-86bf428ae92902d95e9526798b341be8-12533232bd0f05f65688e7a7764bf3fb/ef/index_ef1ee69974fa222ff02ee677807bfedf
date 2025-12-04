@@ -1,0 +1,34 @@
+f9c8f29595a435ef15d3943cd4be3f8f
+/* istanbul ignore next */
+function cov_tzn6qlm4o() {
+  var path = "/home/runner/work/azora-os/azora-os/services/azora-treasury/src/index.ts";
+  var hash = "2944f84d0a793c89fefaa317d54395584605af2d";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/azora-treasury/src/index.ts",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "2944f84d0a793c89fefaa317d54395584605af2d"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_tzn6qlm4o = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_tzn6qlm4o();
+export * from './treasury-service';
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfdHpuNnFsbTRvIiwiYWN0dWFsQ292ZXJhZ2UiXSwic291cmNlcyI6WyJpbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL3RyZWFzdXJ5LXNlcnZpY2UnO1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQWVZO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFmWixjQUFjLG9CQUFvQiIsImlnbm9yZUxpc3QiOltdfQ==

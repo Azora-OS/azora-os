@@ -1,0 +1,330 @@
+2e36a64913f155d0f1abe44bffcc2e34
+/* istanbul ignore next */
+function cov_pugujgveo() {
+  var path = "/home/runner/work/azora-os/azora-os/services/ai-evolution-engine/healthcheck.js";
+  var hash = "225c35955f8c8e419d159c97ac31206f524f9a8c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/runner/work/azora-os/azora-os/services/ai-evolution-engine/healthcheck.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 13
+        },
+        end: {
+          line: 1,
+          column: 28
+        }
+      },
+      "1": {
+        start: {
+          line: 4,
+          column: 16
+        },
+        end: {
+          line: 9,
+          column: 1
+        }
+      },
+      "2": {
+        start: {
+          line: 11,
+          column: 16
+        },
+        end: {
+          line: 18,
+          column: 2
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 2
+        },
+        end: {
+          line: 12,
+          column: 56
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 2
+        },
+        end: {
+          line: 17,
+          column: 3
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 4
+        },
+        end: {
+          line: 14,
+          column: 20
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 16,
+          column: 20
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 0
+        },
+        end: {
+          line: 23,
+          column: 3
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 2
+        },
+        end: {
+          line: 21,
+          column: 43
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 2
+        },
+        end: {
+          line: 22,
+          column: 18
+        }
+      },
+      "10": {
+        start: {
+          line: 25,
+          column: 0
+        },
+        end: {
+          line: 25,
+          column: 14
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 11,
+            column: 38
+          },
+          end: {
+            line: 11,
+            column: 39
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 47
+          },
+          end: {
+            line: 18,
+            column: 1
+          }
+        },
+        line: 11
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 20,
+            column: 20
+          },
+          end: {
+            line: 20,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 29
+          },
+          end: {
+            line: 23,
+            column: 1
+          }
+        },
+        line: 20
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 6,
+            column: 8
+          },
+          end: {
+            line: 6,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 6,
+            column: 8
+          },
+          end: {
+            line: 6,
+            column: 24
+          }
+        }, {
+          start: {
+            line: 6,
+            column: 28
+          },
+          end: {
+            line: 6,
+            column: 32
+          }
+        }],
+        line: 6
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 13,
+            column: 2
+          },
+          end: {
+            line: 17,
+            column: 3
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 13,
+            column: 2
+          },
+          end: {
+            line: 17,
+            column: 3
+          }
+        }, {
+          start: {
+            line: 15,
+            column: 9
+          },
+          end: {
+            line: 17,
+            column: 3
+          }
+        }],
+        line: 13
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "225c35955f8c8e419d159c97ac31206f524f9a8c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_pugujgveo = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_pugujgveo();
+const http =
+/* istanbul ignore next */
+(cov_pugujgveo().s[0]++, require('http'));
+
+// Simple health check script for Docker
+const options =
+/* istanbul ignore next */
+(cov_pugujgveo().s[1]++, {
+  host: 'localhost',
+  port:
+  /* istanbul ignore next */
+  (cov_pugujgveo().b[0][0]++, process.env.PORT) ||
+  /* istanbul ignore next */
+  (cov_pugujgveo().b[0][1]++, 3011),
+  path: '/health',
+  timeout: 2000
+});
+const request =
+/* istanbul ignore next */
+(cov_pugujgveo().s[2]++, http.request(options, res => {
+  /* istanbul ignore next */
+  cov_pugujgveo().f[0]++;
+  cov_pugujgveo().s[3]++;
+  console.log(`Health check status: ${res.statusCode}`);
+  /* istanbul ignore next */
+  cov_pugujgveo().s[4]++;
+  if (res.statusCode === 200) {
+    /* istanbul ignore next */
+    cov_pugujgveo().b[1][0]++;
+    cov_pugujgveo().s[5]++;
+    process.exit(0);
+  } else {
+    /* istanbul ignore next */
+    cov_pugujgveo().b[1][1]++;
+    cov_pugujgveo().s[6]++;
+    process.exit(1);
+  }
+}));
+/* istanbul ignore next */
+cov_pugujgveo().s[7]++;
+request.on('error', err => {
+  /* istanbul ignore next */
+  cov_pugujgveo().f[1]++;
+  cov_pugujgveo().s[8]++;
+  console.log('Health check failed:', err);
+  /* istanbul ignore next */
+  cov_pugujgveo().s[9]++;
+  process.exit(1);
+});
+/* istanbul ignore next */
+cov_pugujgveo().s[10]++;
+request.end();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfcHVndWpndmVvIiwiYWN0dWFsQ292ZXJhZ2UiLCJodHRwIiwicyIsInJlcXVpcmUiLCJvcHRpb25zIiwiaG9zdCIsInBvcnQiLCJiIiwicHJvY2VzcyIsImVudiIsIlBPUlQiLCJwYXRoIiwidGltZW91dCIsInJlcXVlc3QiLCJyZXMiLCJmIiwiY29uc29sZSIsImxvZyIsInN0YXR1c0NvZGUiLCJleGl0Iiwib24iLCJlcnIiLCJlbmQiXSwic291cmNlcyI6WyJoZWFsdGhjaGVjay5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBodHRwID0gcmVxdWlyZSgnaHR0cCcpO1xuXG4vLyBTaW1wbGUgaGVhbHRoIGNoZWNrIHNjcmlwdCBmb3IgRG9ja2VyXG5jb25zdCBvcHRpb25zID0ge1xuICBob3N0OiAnbG9jYWxob3N0JyxcbiAgcG9ydDogcHJvY2Vzcy5lbnYuUE9SVCB8fCAzMDExLFxuICBwYXRoOiAnL2hlYWx0aCcsXG4gIHRpbWVvdXQ6IDIwMDBcbn07XG5cbmNvbnN0IHJlcXVlc3QgPSBodHRwLnJlcXVlc3Qob3B0aW9ucywgKHJlcykgPT4ge1xuICBjb25zb2xlLmxvZyhgSGVhbHRoIGNoZWNrIHN0YXR1czogJHtyZXMuc3RhdHVzQ29kZX1gKTtcbiAgaWYgKHJlcy5zdGF0dXNDb2RlID09PSAyMDApIHtcbiAgICBwcm9jZXNzLmV4aXQoMCk7XG4gIH0gZWxzZSB7XG4gICAgcHJvY2Vzcy5leGl0KDEpO1xuICB9XG59KTtcblxucmVxdWVzdC5vbignZXJyb3InLCAoZXJyKSA9PiB7XG4gIGNvbnNvbGUubG9nKCdIZWFsdGggY2hlY2sgZmFpbGVkOicsIGVycik7XG4gIHByb2Nlc3MuZXhpdCgxKTtcbn0pO1xuXG5yZXF1ZXN0LmVuZCgpO1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBZVk7SUFBQUEsYUFBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsYUFBQTtBQWZaLE1BQU1FLElBQUk7QUFBQTtBQUFBLENBQUFGLGFBQUEsR0FBQUcsQ0FBQSxPQUFHQyxPQUFPLENBQUMsTUFBTSxDQUFDOztBQUU1QjtBQUNBLE1BQU1DLE9BQU87QUFBQTtBQUFBLENBQUFMLGFBQUEsR0FBQUcsQ0FBQSxPQUFHO0VBQ2RHLElBQUksRUFBRSxXQUFXO0VBQ2pCQyxJQUFJO0VBQUU7RUFBQSxDQUFBUCxhQUFBLEdBQUFRLENBQUEsVUFBQUMsT0FBTyxDQUFDQyxHQUFHLENBQUNDLElBQUk7RUFBQTtFQUFBLENBQUFYLGFBQUEsR0FBQVEsQ0FBQSxVQUFJLElBQUk7RUFDOUJJLElBQUksRUFBRSxTQUFTO0VBQ2ZDLE9BQU8sRUFBRTtBQUNYLENBQUM7QUFFRCxNQUFNQyxPQUFPO0FBQUE7QUFBQSxDQUFBZCxhQUFBLEdBQUFHLENBQUEsT0FBR0QsSUFBSSxDQUFDWSxPQUFPLENBQUNULE9BQU8sRUFBR1UsR0FBRyxJQUFLO0VBQUE7RUFBQWYsYUFBQSxHQUFBZ0IsQ0FBQTtFQUFBaEIsYUFBQSxHQUFBRyxDQUFBO0VBQzdDYyxPQUFPLENBQUNDLEdBQUcsQ0FBQyx3QkFBd0JILEdBQUcsQ0FBQ0ksVUFBVSxFQUFFLENBQUM7RUFBQztFQUFBbkIsYUFBQSxHQUFBRyxDQUFBO0VBQ3RELElBQUlZLEdBQUcsQ0FBQ0ksVUFBVSxLQUFLLEdBQUcsRUFBRTtJQUFBO0lBQUFuQixhQUFBLEdBQUFRLENBQUE7SUFBQVIsYUFBQSxHQUFBRyxDQUFBO0lBQzFCTSxPQUFPLENBQUNXLElBQUksQ0FBQyxDQUFDLENBQUM7RUFDakIsQ0FBQyxNQUFNO0lBQUE7SUFBQXBCLGFBQUEsR0FBQVEsQ0FBQTtJQUFBUixhQUFBLEdBQUFHLENBQUE7SUFDTE0sT0FBTyxDQUFDVyxJQUFJLENBQUMsQ0FBQyxDQUFDO0VBQ2pCO0FBQ0YsQ0FBQyxDQUFDO0FBQUM7QUFBQXBCLGFBQUEsR0FBQUcsQ0FBQTtBQUVIVyxPQUFPLENBQUNPLEVBQUUsQ0FBQyxPQUFPLEVBQUdDLEdBQUcsSUFBSztFQUFBO0VBQUF0QixhQUFBLEdBQUFnQixDQUFBO0VBQUFoQixhQUFBLEdBQUFHLENBQUE7RUFDM0JjLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDLHNCQUFzQixFQUFFSSxHQUFHLENBQUM7RUFBQztFQUFBdEIsYUFBQSxHQUFBRyxDQUFBO0VBQ3pDTSxPQUFPLENBQUNXLElBQUksQ0FBQyxDQUFDLENBQUM7QUFDakIsQ0FBQyxDQUFDO0FBQUM7QUFBQXBCLGFBQUEsR0FBQUcsQ0FBQTtBQUVIVyxPQUFPLENBQUNTLEdBQUcsQ0FBQyxDQUFDIiwiaWdub3JlTGlzdCI6W119
