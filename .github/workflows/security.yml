@@ -13,7 +13,7 @@ jobs:
   npm-audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -75,7 +75,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       
       - name: Dependency Review
         uses: actions/dependency-review-action@v4
@@ -89,7 +89,7 @@ jobs:
       actions: read
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
@@ -113,7 +113,7 @@ jobs:
   secret-detection:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
       
@@ -152,7 +152,7 @@ jobs:
     needs: [npm-audit, sast-scan, secret-detection]
     if: always()
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       
       - name: Download all security reports
         uses: actions/download-artifact@v4
