@@ -1,5 +1,11 @@
 # Azora Documentation Index
 
+## 🌟 Vision & Strategy
+
+- **[Master Vision](MASTER-VISION.md)** ⭐ THE NORTH STAR - Agentic Operating System architecture
+- **[Constitution](../CONSTITUTION.md)** - Constitutional AI principles and governance
+- **[Master Implementation Plan](MASTER-IMPLEMENTATION-PLAN.md)** - 147 tasks across 6 phases
+
 ## 🚀 Quick Start
 
 - **New Developer?** → [DEVELOPER-GUIDE.md](docs/DEVELOPER-GUIDE.md)

@@ -1,4 +1,4 @@
-# Azora - The Future of Learning, Building & Earning
+# Azora - The Constitutional Agentic Operating System for Human Potential
 
 > **Constitutional AI • Blockchain-Powered • Antifragile • Ubuntu Economics**
 
@@ -14,7 +14,9 @@
 
 ## 🌟 What is Azora?
 
-**Azora** is a revolutionary ecosystem that combines **education**, **development tools**, and **economic opportunity** into one seamless platform. Whether you're a student, developer, entrepreneur, or enterprise, Azora provides the tools and infrastructure to learn, build, and earn - all powered by Constitutional AI and blockchain technology.
+**Azora** is the world's first **Constitutional Agentic Operating System** - a revolutionary platform that transforms education, development, and economic opportunity through autonomous AI agents governed by Ubuntu philosophy. Unlike passive chatbots, Azora's AI family actively detects patterns, takes autonomous action, and self-heals - all while respecting human agency and constitutional principles.
+
+📖 **[Read the Master Vision →](docs/MASTER-VISION.md)**
 
 ## 🎯 What We Offer
 
